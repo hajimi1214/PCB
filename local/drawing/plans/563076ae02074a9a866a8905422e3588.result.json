@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status": "rejected",
+  "reason": "{\"name\":\"Error\",\"message\":\"Board outline readback mismatch {\\\"layer\\\":11,\\\"line_width\\\":2,\\\"expected_line_width\\\":2,\\\"expected_length\\\":43,\\\"actual_type\\\":\\\"object\\\",\\\"actual_length\\\":43,\\\"actual_start\\\":[1889,0,\\\"L\\\",158,0,97.536],\\\"actual_end\\\":[2000.723,46.277,1949.464,12.027,1889,0]\"}",
+  "stage": "readback",
+  "error_type": "Error",
+  "rollback": "source_verified",
+  "recovery_required": false,
+  "committed": false,
+  "plan_id": "563076ae02074a9a866a8905422e3588",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/563076ae02074a9a866a8905422e3588.json"
+}

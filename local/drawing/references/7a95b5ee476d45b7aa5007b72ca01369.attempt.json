@@ -1,0 +1,9 @@
+{
+  "status": "started",
+  "project_slug": "feather-f405",
+  "source_path": "local/board-challenges/sources/feather-f405.zip",
+  "source_sha256": "31eaad3086be1d55fa4f3e61f667d6cc71b08849f04f15032c26b886c3a275c5",
+  "file_type": "EAGLE",
+  "destination": "new_user_project",
+  "public_source": true
+}

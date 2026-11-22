@@ -1,0 +1,27 @@
+{
+  "name": "pcb",
+  "version": "0.4.0",
+  "description": "Sourced PCB design knowledge, JLCEDA Pro working-copy editing and native autorouting, with local Windows-MCP control.",
+  "author": {
+    "name": "PCB project contributors"
+  },
+  "repository": "https://github.com/hajimi1214/PCB",
+  "skills": "./.agents/skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PCB",
+    "shortDescription": "Research and edit PCB copies with JLCEDA Pro routing",
+    "longDescription": "Research PCB constraints, inspect native netlists and physical pad connectivity, use JLCEDA Pro to make finite working-copy edits and run the native autorouter, and control the desktop through an allowlisted local Windows-MCP server. Router jobs require explicit net/layer selection and report terminal/ratline state. DRC, manufacturing and functional evidence remain separate checks.",
+    "developerName": "PCB project contributors",
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Use PCB to inspect this schematic-to-board design and list sourced constraints and checks still needed.",
+      "Search the PCB knowledge base for four-layer MCU layout guidance.",
+      "Inspect the structure of the local JLCEDA Pro project read-only."
+    ],
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

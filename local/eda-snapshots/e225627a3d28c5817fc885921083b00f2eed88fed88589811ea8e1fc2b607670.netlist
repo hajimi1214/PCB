@@ -1,0 +1,3978 @@
+{
+    "version": "2.0.0",
+    "projectId": "24dd36c7036f4e02bddc95024a9dd349",
+    "components": {
+        "66797bcd97f4f6c2": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "db25167b46abc30d",
+                "Footprint": "60f63300c7161e95",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Integrated_Circuits | Microcontrollers/RP-01EKHS-ZTKTEH",
+                "Designator": "U3",
+                "Value": "RP2040",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Microcontrollers\\\\RPI_RP2040\\\\datasheets",
+                "Description": "RP2040 MCU, Dual Cortex M0+, QFN-56",
+                "part_uid": "RP-01EKHS-ZTKTEH",
+                "status": "OK",
+                "manufacturer": "Raspberry Pi",
+                "manufacturer_pn": "RP2040",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "C2040",
+                "z_height_max": "",
+                "operating_temp_max": "+85C",
+                "operating_temp_min": "-40C",
+                "size": "7x7x0.9mm",
+                "package": "QFN-56",
+                "z_height_nom": "0.9mm",
+                "ki_fp_filters": "RPI_COMPILED:rpi_rp2040 RPI_COMPILED:rpi_rp2040_vias",
+                "Origin Footprint": "RPI_COMPILED:rpi_rp2040",
+                "Symbol": "736c256724265401",
+                "Unique ID": "66797bcd97f4f6c2",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Microcontrollers\\\\RPI_RP2040\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie1",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Integrated_Circuits | Microcontrollers/RP-01EKHS-ZTKTEH",
+                "FootprintName": "RPI_COMPILED:rpi_rp2040_vias"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "IOVDD",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "GPIO0",
+                    "number": "2",
+                    "net": "GPIO0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "GPIO1",
+                    "number": "3",
+                    "net": "GPIO1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "GPIO2",
+                    "number": "4",
+                    "net": "GPIO2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "GPIO3",
+                    "number": "5",
+                    "net": "GPIO3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "GPIO4",
+                    "number": "6",
+                    "net": "GPIO4",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "GPIO5",
+                    "number": "7",
+                    "net": "GPIO5",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "GPIO6",
+                    "number": "8",
+                    "net": "GPIO6",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "GPIO7",
+                    "number": "9",
+                    "net": "GPIO7",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "IOVDD",
+                    "number": "10",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "GPIO8",
+                    "number": "11",
+                    "net": "GPIO8",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "GPIO9",
+                    "number": "12",
+                    "net": "GPIO9",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "GPIO10",
+                    "number": "13",
+                    "net": "GPIO10",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "GPIO11",
+                    "number": "14",
+                    "net": "GPIO11",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "GPIO12",
+                    "number": "15",
+                    "net": "GPIO12",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "GPIO13",
+                    "number": "16",
+                    "net": "GPIO13",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "GPIO14",
+                    "number": "17",
+                    "net": "GPIO14",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "GPIO15",
+                    "number": "18",
+                    "net": "GPIO15",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "TESTEN",
+                    "number": "19",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "XIN",
+                    "number": "20",
+                    "net": "XIN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                },
+                "21": {
+                    "name": "XOUT",
+                    "number": "21",
+                    "net": "XOUT",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "21"
+                    }
+                },
+                "22": {
+                    "name": "IOVDD",
+                    "number": "22",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "22"
+                    }
+                },
+                "23": {
+                    "name": "DVDD",
+                    "number": "23",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "23"
+                    }
+                },
+                "24": {
+                    "name": "SWCLK",
+                    "number": "24",
+                    "net": "SWCLK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "24"
+                    }
+                },
+                "25": {
+                    "name": "SWD",
+                    "number": "25",
+                    "net": "SWD",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "25"
+                    }
+                },
+                "26": {
+                    "name": "RUN",
+                    "number": "26",
+                    "net": "RUN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "26"
+                    }
+                },
+                "27": {
+                    "name": "GPIO16",
+                    "number": "27",
+                    "net": "GPIO16",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "27"
+                    }
+                },
+                "28": {
+                    "name": "GPIO17",
+                    "number": "28",
+                    "net": "GPIO17",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "28"
+                    }
+                },
+                "29": {
+                    "name": "GPIO18",
+                    "number": "29",
+                    "net": "GPIO18",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "29"
+                    }
+                },
+                "30": {
+                    "name": "GPIO19",
+                    "number": "30",
+                    "net": "GPIO19",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "30"
+                    }
+                },
+                "31": {
+                    "name": "GPIO20",
+                    "number": "31",
+                    "net": "GPIO20",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "31"
+                    }
+                },
+                "32": {
+                    "name": "GPIO21",
+                    "number": "32",
+                    "net": "GPIO21",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "32"
+                    }
+                },
+                "33": {
+                    "name": "IOVDD",
+                    "number": "33",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "33"
+                    }
+                },
+                "34": {
+                    "name": "GPIO22",
+                    "number": "34",
+                    "net": "GPIO22",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "34"
+                    }
+                },
+                "35": {
+                    "name": "GPIO23",
+                    "number": "35",
+                    "net": "GPIO23",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "35"
+                    }
+                },
+                "36": {
+                    "name": "GPIO24",
+                    "number": "36",
+                    "net": "GPIO24",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "36"
+                    }
+                },
+                "37": {
+                    "name": "GPIO25",
+                    "number": "37",
+                    "net": "GPIO25",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "37"
+                    }
+                },
+                "38": {
+                    "name": "GPIO26_ADC0",
+                    "number": "38",
+                    "net": "GPIO26_ADC0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "38"
+                    }
+                },
+                "39": {
+                    "name": "GPIO27_ADC1",
+                    "number": "39",
+                    "net": "GPIO27_ADC1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "39"
+                    }
+                },
+                "40": {
+                    "name": "GPIO28_ADC2",
+                    "number": "40",
+                    "net": "GPIO28_ADC2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "40"
+                    }
+                },
+                "41": {
+                    "name": "GPIO29_ADC3",
+                    "number": "41",
+                    "net": "GPIO29_ADC3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "41"
+                    }
+                },
+                "42": {
+                    "name": "IOVDD",
+                    "number": "42",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "42"
+                    }
+                },
+                "43": {
+                    "name": "ADC_AVDD",
+                    "number": "43",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "43"
+                    }
+                },
+                "44": {
+                    "name": "VREG_IN",
+                    "number": "44",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "44"
+                    }
+                },
+                "45": {
+                    "name": "VREG_VOUT",
+                    "number": "45",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "45"
+                    }
+                },
+                "46": {
+                    "name": "USB_DM",
+                    "number": "46",
+                    "net": "$1N11",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "46"
+                    }
+                },
+                "47": {
+                    "name": "USB_DP",
+                    "number": "47",
+                    "net": "$1N77",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "47"
+                    }
+                },
+                "48": {
+                    "name": "USB_VDD",
+                    "number": "48",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "48"
+                    }
+                },
+                "49": {
+                    "name": "IOVDD",
+                    "number": "49",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "49"
+                    }
+                },
+                "50": {
+                    "name": "DVDD",
+                    "number": "50",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "50"
+                    }
+                },
+                "51": {
+                    "name": "QSPI_SD3",
+                    "number": "51",
+                    "net": "QSPI_SD3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "51"
+                    }
+                },
+                "52": {
+                    "name": "QSPI_SCLK",
+                    "number": "52",
+                    "net": "QSPI_SCLK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "52"
+                    }
+                },
+                "53": {
+                    "name": "QSPI_SD0",
+                    "number": "53",
+                    "net": "QSPI_SD0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "53"
+                    }
+                },
+                "54": {
+                    "name": "QSPI_SD2",
+                    "number": "54",
+                    "net": "QSPI_SD2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "54"
+                    }
+                },
+                "55": {
+                    "name": "QSPI_SD1",
+                    "number": "55",
+                    "net": "QSPI_SD1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "55"
+                    }
+                },
+                "56": {
+                    "name": "QSPI_~SS~",
+                    "number": "56",
+                    "net": "QSPI_SS",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "56"
+                    }
+                },
+                "57": {
+                    "name": "GND",
+                    "number": "57",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "57"
+                    }
+                }
+            }
+        },
+        "48f0ae2437312dae": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "f589c3b7a8ed831b",
+                "Footprint": "70f4f5fcb23ea21a",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Integrated_Circuits | Memory | Serial_Flash | SPI/RP-01JWD4-F1H4N9",
+                "Designator": "U2",
+                "Value": "W25Q128JVSIQ",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Memory\\\\Serial_Flash\\\\SPI\\\\WINBOND_W25Q128JVSIQ\\\\datasheets",
+                "Description": "Serial NOR Flash, QSPI, 3V, 128Mbit, SOIC-8",
+                "part_uid": "RP-01JWD4-F1H4N9",
+                "status": "OK",
+                "manufacturer": "Winbond",
+                "manufacturer_pn": "W25Q128JVSIQ",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "C97521",
+                "voltage": "2.7-3.6V",
+                "z_height_max": "2.16mm",
+                "operating_temp_max": "+85C",
+                "capacity": "128Mbit",
+                "operating_temp_min": "-40C",
+                "size": "7.9x5.28x1.95mm",
+                "package": "SOIC-8",
+                "z_height_nom": "1.95mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_soic127p790x195-8",
+                "Symbol": "d3ddb1876a74d90e",
+                "Unique ID": "48f0ae2437312dae",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Memory\\\\Serial_Flash\\\\SPI\\\\WINBOND_W25Q128JVSIQ\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie2",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Integrated_Circuits | Memory | Serial_Flash | SPI/RP-01JWD4-F1H4N9",
+                "FootprintName": "RPI_COMPILED:generic_soic127p790x195-8"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "~CS~",
+                    "number": "1",
+                    "net": "QSPI_SS",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "DO_IO1",
+                    "number": "2",
+                    "net": "QSPI_SD1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "~WP~_IO2",
+                    "number": "3",
+                    "net": "QSPI_SD2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "GND",
+                    "number": "4",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "DI_IO0",
+                    "number": "5",
+                    "net": "QSPI_SD0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "CLK",
+                    "number": "6",
+                    "net": "QSPI_SCLK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "~HOLD~_IO3",
+                    "number": "7",
+                    "net": "QSPI_SD3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "VCC",
+                    "number": "8",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                }
+            }
+        },
+        "6f63fc6711cfa315": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "6e621e3b56ac95d1",
+                "Footprint": "92866978dfd9f852",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-53DHSX",
+                "Designator": "R2",
+                "Value": "10k",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Description": "Resistor, Chip, 10kR, M1005, 63mW, 1%",
+                "power": "63mW",
+                "tolerance": "1%",
+                "package": "M1005",
+                "part_uid": "RP-019A1P-53DHSX",
+                "status": "OK",
+                "manufacturer": "Yageo",
+                "manufacturer_pn": "RC0402FR-0710KL",
+                "packaging": "7 inch dia. paper taping reel",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C60490",
+                "voltage": "50V",
+                "z_height_max": "0.4mm",
+                "resistance": "10k",
+                "size": "1x0.5x0.35mm",
+                "operating_temp_max": "+155C",
+                "material": "Thick Film",
+                "temp_coefficient": "100ppm/degC",
+                "current": "",
+                "operating_temp_min": "-55C",
+                "z_height_nom": "0.35mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_resc1005x35",
+                "Symbol": "7e27a72cffadbdec",
+                "Unique ID": "6f63fc6711cfa315",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie5",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-53DHSX",
+                "FootprintName": "RPI_COMPILED:generic_resc1005x35"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "QSPI_SS",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "353b166cc2dee846": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "8d8ba2bea8b653f0",
+                "Footprint": "41f10aa4d5b7be1d",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-4Z6ZWY",
+                "Designator": "R1",
+                "Value": "1k",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Description": "Resistor, Chip, 1kR, M1005, 63mW, 1%",
+                "power": "63mW",
+                "tolerance": "1%",
+                "package": "M1005",
+                "part_uid": "RP-019A1P-4Z6ZWY",
+                "status": "OK",
+                "manufacturer": "Yageo",
+                "manufacturer_pn": "RC0402FR-071KL",
+                "packaging": "7 inch dia. paper taping reel",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C106235",
+                "voltage": "50V",
+                "z_height_max": "0.4mm",
+                "resistance": "1k",
+                "size": "1x0.5x0.35mm",
+                "operating_temp_max": "+155C",
+                "material": "Thick Film",
+                "temp_coefficient": "100ppm/degC",
+                "current": "",
+                "operating_temp_min": "-55C",
+                "z_height_nom": "0.35mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_resc1005x35",
+                "Symbol": "93135decca10dcbd",
+                "Unique ID": "353b166cc2dee846",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie6",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-4Z6ZWY",
+                "FootprintName": "RPI_COMPILED:generic_resc1005x35"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "QSPI_SS",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "~{USB_BOOT}",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "ddba3c46cf8b8e66": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "02a93bd6fb50955c",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C5",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "ddba3c46cf8b8e66",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie7",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "51bfc0e5166a1c40": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "069d85104894c04b",
+                "Footprint": "840d5114b71a38b1",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Connectors | USB/RP-019A1P-1JAX7V",
+                "Designator": "J1",
+                "Value": "10103594-0001LF",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\USB\\\\AMPHENOL_10103594-0001LF\\\\datasheets",
+                "Description": "Micro-USB B, Socket, RA, PTH/SMT",
+                "part_uid": "RP-019A1P-1JAX7V",
+                "status": "OK",
+                "manufacturer": "Amphenol",
+                "manufacturer_pn": "10103594-0001LF",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "C428495",
+                "z_height_max": "",
+                "operating_temp_max": "",
+                "operating_temp_min": "",
+                "size": "8x6x2.85mm",
+                "package": "",
+                "z_height_nom": "2.85mm",
+                "ki_fp_filters": "RPI_COMPILED:amphenol_10103594-0001lf",
+                "Symbol": "8e295a13a45bbd90",
+                "Unique ID": "51bfc0e5166a1c40",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\USB\\\\AMPHENOL_10103594-0001LF\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie9",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Connectors | USB/RP-019A1P-1JAX7V",
+                "FootprintName": "RPI_COMPILED:amphenol_10103594-0001lf"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "VCC",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "D-",
+                    "number": "2",
+                    "net": "USB_D-",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "D+",
+                    "number": "3",
+                    "net": "USB_D+",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "ID",
+                    "number": "4",
+                    "net": "",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "GND",
+                    "number": "5",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "SH",
+                    "number": "6",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "SH",
+                    "number": "7",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "SH",
+                    "number": "8",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "SH",
+                    "number": "9",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "SH",
+                    "number": "10",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "SH",
+                    "number": "11",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                }
+            }
+        },
+        "fe89d0632cfce75f": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "86a999c80b83faa1",
+                "Footprint": "b6a370204b09708a",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Resistors | Chip | M1005/RP-01C89V-LTEYC4",
+                "Designator": "R3",
+                "Value": "27",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Description": "Resistor, Chip, 27R, M1005, 63mW, 1%",
+                "power": "63mW",
+                "tolerance": "1%",
+                "package": "M1005",
+                "part_uid": "RP-01C89V-LTEYC4",
+                "status": "OK",
+                "manufacturer": "Yageo",
+                "manufacturer_pn": "RC0402FR-0727RL",
+                "packaging": "7 inch dia. paper taping reel",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C138021",
+                "voltage": "50V",
+                "z_height_max": "0.4mm",
+                "resistance": "27",
+                "size": "1x0.5x0.35mm",
+                "operating_temp_max": "+155C",
+                "material": "Thick Film",
+                "temp_coefficient": "100ppm/degC",
+                "current": "",
+                "operating_temp_min": "-55C",
+                "z_height_nom": "0.35mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_resc1005x35",
+                "Symbol": "2a01ece521c539d6",
+                "Unique ID": "fe89d0632cfce75f",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie10",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Resistors | Chip | M1005/RP-01C89V-LTEYC4",
+                "FootprintName": "RPI_COMPILED:generic_resc1005x35"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "USB_D+",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "$1N77",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "fdc86a4b576d9e98": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "86a999c80b83faa1",
+                "Footprint": "aba8afa3fc1c660b",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Resistors | Chip | M1005/RP-01C89V-LTEYC4",
+                "Designator": "R4",
+                "Value": "27",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Description": "Resistor, Chip, 27R, M1005, 63mW, 1%",
+                "power": "63mW",
+                "tolerance": "1%",
+                "package": "M1005",
+                "part_uid": "RP-01C89V-LTEYC4",
+                "status": "OK",
+                "manufacturer": "Yageo",
+                "manufacturer_pn": "RC0402FR-0727RL",
+                "packaging": "7 inch dia. paper taping reel",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C138021",
+                "voltage": "50V",
+                "z_height_max": "0.4mm",
+                "resistance": "27",
+                "size": "1x0.5x0.35mm",
+                "operating_temp_max": "+155C",
+                "material": "Thick Film",
+                "temp_coefficient": "100ppm/degC",
+                "current": "",
+                "operating_temp_min": "-55C",
+                "z_height_nom": "0.35mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_resc1005x35",
+                "Symbol": "2a01ece521c539d6",
+                "Unique ID": "fdc86a4b576d9e98",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie11",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Resistors | Chip | M1005/RP-01C89V-LTEYC4",
+                "FootprintName": "RPI_COMPILED:generic_resc1005x35"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "USB_D-",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "$1N11",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "7ddfd2f632a8b17d": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "fbf593d40eae07ec",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C9",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "7ddfd2f632a8b17d",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie17",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "20764de07767b3a1": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "32cfff82c648e20e",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C11",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "20764de07767b3a1",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie18",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "26a39bcafcc8ce7c": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "093388a99cbe07a4",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C12",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "26a39bcafcc8ce7c",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie19",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "e7ba3aba9f9889c8": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "97ec37459fa64236",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C13",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "e7ba3aba9f9889c8",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie20",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "00361082df9d4549": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "3c1de87666fa1f98",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C14",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "00361082df9d4549",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie21",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "86bb77bda672094d": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "4e6ea46832b30652",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C15",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "86bb77bda672094d",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie22",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "c8e923f96b539988": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "c4db38d9333cd4a8",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C16",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "c8e923f96b539988",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie23",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "ab4a8fe24fad9fe4": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "a328ed0a74d50ff4",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C6",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "ab4a8fe24fad9fe4",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie24",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "48d2dd422533522c": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "225c0d069f519fd4",
+                "Footprint": "fbfc54e418ec90c6",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "Designator": "C7",
+                "Value": "100n",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 100nF, 10%, M1005, 25V, X7R",
+                "package": "M1005",
+                "voltage": "25V",
+                "dielectric": "X7R",
+                "tolerance": "10%",
+                "part_uid": "RP-01BJ9Y-KRGF41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R71E104KE14D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77014",
+                "capacitance": "100n",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "X7R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "bc0268f165c07daa",
+                "Unique ID": "48d2dd422533522c",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R71E104KE14D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie25",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01BJ9Y-KRGF41",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "80f3708378e3d903": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "0c6538c7d5506e06",
+                "Footprint": "4ee42137ec565186",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01GYSK-L7FEKV",
+                "Designator": "C8",
+                "Value": "1u",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R61C105KA12D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 1uF, 10%, M1005, 16V, X5R",
+                "package": "M1005",
+                "voltage": "16V",
+                "dielectric": "X5R",
+                "tolerance": "10%",
+                "part_uid": "RP-01GYSK-L7FEKV",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R61C105KA12D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77006",
+                "capacitance": "1u",
+                "operating_temp_max": "+85C",
+                "material": "Ceramic",
+                "temp_coefficient": "X5R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "3a70f6137ec43b58",
+                "Unique ID": "80f3708378e3d903",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R61C105KA12D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie26",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01GYSK-L7FEKV",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "3e75135af30e0f04": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "0c6538c7d5506e06",
+                "Footprint": "54d616aeae33209b",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01GYSK-L7FEKV",
+                "Designator": "C10",
+                "Value": "1u",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R61C105KA12D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 1uF, 10%, M1005, 16V, X5R",
+                "package": "M1005",
+                "voltage": "16V",
+                "dielectric": "X5R",
+                "tolerance": "10%",
+                "part_uid": "RP-01GYSK-L7FEKV",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM155R61C105KA12D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C77006",
+                "capacitance": "1u",
+                "operating_temp_max": "+85C",
+                "material": "Ceramic",
+                "temp_coefficient": "X5R",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "3a70f6137ec43b58",
+                "Unique ID": "3e75135af30e0f04",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM155R61C105KA12D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie27",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01GYSK-L7FEKV",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "68bc91b8c6d4abd5": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "1622b8186c7bcc24",
+                "Footprint": "28b242f2aa997a49",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "Designator": "MH1",
+                "Value": "NPTH FD2.75mm SM3.15mm KO6mm",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Description": "Mounting Hole, NPTH, Finished Dia=2.75mm, Soldermask Dia=3.15mm, Keep Out Dia=6mm",
+                "part_uid": "RP-01HF5R-LCTEJS",
+                "status": "OK",
+                "manufacturer": "None",
+                "manufacturer_pn": "MH_NPTH_FD2P75MM_SM3P15MM_KO6MM",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "size": "FD2.75mm SM3.15mm KO6mm",
+                "ki_fp_filters": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+                "Symbol": "7be089acf1ce6838",
+                "Unique ID": "68bc91b8c6d4abd5",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie28",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "FootprintName": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "9e1de32fcef01b1a": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "1622b8186c7bcc24",
+                "Footprint": "530feb5bd26552e7",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "Designator": "MH2",
+                "Value": "NPTH FD2.75mm SM3.15mm KO6mm",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Description": "Mounting Hole, NPTH, Finished Dia=2.75mm, Soldermask Dia=3.15mm, Keep Out Dia=6mm",
+                "part_uid": "RP-01HF5R-LCTEJS",
+                "status": "OK",
+                "manufacturer": "None",
+                "manufacturer_pn": "MH_NPTH_FD2P75MM_SM3P15MM_KO6MM",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "size": "FD2.75mm SM3.15mm KO6mm",
+                "ki_fp_filters": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+                "Symbol": "7be089acf1ce6838",
+                "Unique ID": "9e1de32fcef01b1a",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie29",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "FootprintName": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "1b1d9063a7eb54d6": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "1622b8186c7bcc24",
+                "Footprint": "ef635161a1783f83",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "Designator": "MH3",
+                "Value": "NPTH FD2.75mm SM3.15mm KO6mm",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Description": "Mounting Hole, NPTH, Finished Dia=2.75mm, Soldermask Dia=3.15mm, Keep Out Dia=6mm",
+                "part_uid": "RP-01HF5R-LCTEJS",
+                "status": "OK",
+                "manufacturer": "None",
+                "manufacturer_pn": "MH_NPTH_FD2P75MM_SM3P15MM_KO6MM",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "size": "FD2.75mm SM3.15mm KO6mm",
+                "ki_fp_filters": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+                "Symbol": "7be089acf1ce6838",
+                "Unique ID": "1b1d9063a7eb54d6",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie30",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "FootprintName": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "88db725331a6f183": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "1622b8186c7bcc24",
+                "Footprint": "a8a722055b3c5af7",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "Designator": "MH4",
+                "Value": "NPTH FD2.75mm SM3.15mm KO6mm",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Description": "Mounting Hole, NPTH, Finished Dia=2.75mm, Soldermask Dia=3.15mm, Keep Out Dia=6mm",
+                "part_uid": "RP-01HF5R-LCTEJS",
+                "status": "OK",
+                "manufacturer": "None",
+                "manufacturer_pn": "MH_NPTH_FD2P75MM_SM3P15MM_KO6MM",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "size": "FD2.75mm SM3.15mm KO6mm",
+                "ki_fp_filters": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+                "Symbol": "7be089acf1ce6838",
+                "Unique ID": "88db725331a6f183",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Mechanical\\\\Mounting_Holes\\\\NONE_MH_NPTH_FD2P75MM_SM3P15MM_KO6MM\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie31",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS",
+                "FootprintName": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "1bdc0ab44f99f92d": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "7e90f5df9f16a5d1",
+                "Footprint": "c9dfdb5aba9e1038",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Integrated_Circuits | Power | LDO/RP-01JWD9-7JRX6J",
+                "Designator": "U1",
+                "Value": "NCP1117ST33T3G",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Power\\\\LDO\\\\ONSEMI_NCP1117ST33T3G\\\\datasheets",
+                "Description": "LDO, Vin=4.75-20V, Vout=3.3V, 1A min, SOT-223",
+                "part_uid": "RP-01JWD9-7JRX6J",
+                "status": "OK",
+                "manufacturer": "ON Semiconductor",
+                "manufacturer_pn": "NCP1117ST33T3G",
+                "packaging": "Tape & Reel",
+                "packaging_qty": "4000",
+                "lcsc_pn": "C26537",
+                "voltage": "3.3V",
+                "z_height_max": "1.8mm",
+                "operating_temp_max": "+125C",
+                "current": "1A",
+                "operating_temp_min": "+0C",
+                "size": "6.5x7x1.8mm",
+                "package": "SOT-223",
+                "z_height_nom": "1.8mm",
+                "ki_fp_filters": "RPI_COMPILED:onsemi_ncp1117st33t3g",
+                "Symbol": "0a2b3aa41b434589",
+                "Unique ID": "1bdc0ab44f99f92d",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Integrated_Circuits\\\\Power\\\\LDO\\\\ONSEMI_NCP1117ST33T3G\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie36",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Integrated_Circuits | Power | LDO/RP-01JWD9-7JRX6J",
+                "FootprintName": "RPI_COMPILED:onsemi_ncp1117st33t3g"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "GND",
+                    "number": "1",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "OUT",
+                    "number": "2",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "IN",
+                    "number": "3",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "OUT",
+                    "number": "4",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        },
+        "b4693cfd16d534cd": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "b8e9ddca2b8c5669",
+                "Footprint": "bba72ce0ed319fc5",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "Designator": "C1",
+                "Value": "10u",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Description": "Capacitor, MLCC, 10uF, 10%, M2012, 16V, X5R",
+                "package": "M2012",
+                "voltage": "16V",
+                "dielectric": "X5R",
+                "tolerance": "10%",
+                "part_uid": "RP-01GYSK-AVBE41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM21BR61C106KE15L",
+                "packaging": "180mm embossed taping",
+                "packaging_qty": "3000",
+                "lcsc_pn": "C77075",
+                "capacitance": "10u",
+                "z_height_max": "",
+                "operating_temp_max": "+85C",
+                "material": "Ceramic",
+                "temp_coefficient": "X5R",
+                "operating_temp_min": "-55C",
+                "size": "2.0x1.25x1.25mm",
+                "z_height_nom": "1.25mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc2012x125",
+                "Symbol": "f7696ab492b5ba28",
+                "Unique ID": "b4693cfd16d534cd",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie40",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "FootprintName": "RPI_COMPILED:generic_capc2012x125"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "3a68d3ddabf48558": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "b8e9ddca2b8c5669",
+                "Footprint": "f2382a3a65e883d1",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "Designator": "C4",
+                "Value": "10u",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Description": "Capacitor, MLCC, 10uF, 10%, M2012, 16V, X5R",
+                "package": "M2012",
+                "voltage": "16V",
+                "dielectric": "X5R",
+                "tolerance": "10%",
+                "part_uid": "RP-01GYSK-AVBE41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM21BR61C106KE15L",
+                "packaging": "180mm embossed taping",
+                "packaging_qty": "3000",
+                "lcsc_pn": "C77075",
+                "capacitance": "10u",
+                "z_height_max": "",
+                "operating_temp_max": "+85C",
+                "material": "Ceramic",
+                "temp_coefficient": "X5R",
+                "operating_temp_min": "-55C",
+                "size": "2.0x1.25x1.25mm",
+                "z_height_nom": "1.25mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc2012x125",
+                "Symbol": "f7696ab492b5ba28",
+                "Unique ID": "3a68d3ddabf48558",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie41",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "FootprintName": "RPI_COMPILED:generic_capc2012x125"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "48700c84863a802e": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "b8e9ddca2b8c5669",
+                "Footprint": "99bab940c4f22b22",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "Designator": "C17",
+                "Value": "10u",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Description": "Capacitor, MLCC, 10uF, 10%, M2012, 16V, X5R",
+                "package": "M2012",
+                "voltage": "16V",
+                "dielectric": "X5R",
+                "tolerance": "10%",
+                "part_uid": "RP-01GYSK-AVBE41",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM21BR61C106KE15L",
+                "packaging": "180mm embossed taping",
+                "packaging_qty": "3000",
+                "lcsc_pn": "C77075",
+                "capacitance": "10u",
+                "z_height_max": "",
+                "operating_temp_max": "+85C",
+                "material": "Ceramic",
+                "temp_coefficient": "X5R",
+                "operating_temp_min": "-55C",
+                "size": "2.0x1.25x1.25mm",
+                "z_height_nom": "1.25mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc2012x125",
+                "Symbol": "f7696ab492b5ba28",
+                "Unique ID": "48700c84863a802e",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M2012\\\\MURATA_GRM21BR61C106KE15L\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie45",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M2012/RP-01GYSK-AVBE41",
+                "FootprintName": "RPI_COMPILED:generic_capc2012x125"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "1fb9863844ab5169": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "065d1ac04665f793",
+                "Footprint": "0053beec1f9b605e",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Connectors | Pin_Headers/RP-01JV5X-LY21H5",
+                "Designator": "J2",
+                "Value": "TSW-102-07-G-S",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-102-07-G-S\\\\datasheets",
+                "Description": "Pin Header, 01x02W, 2.54mm, PTH, Male",
+                "part_uid": "RP-01JV5X-LY21H5",
+                "status": "OK",
+                "manufacturer": "Samtec",
+                "manufacturer_pn": "TSW-102-07-G-S",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "C7402729",
+                "z_height_max": "",
+                "size": "5.08x2.54x10.92mm",
+                "package": "",
+                "z_height_nom": "8.38mm",
+                "ki_fp_filters": "RPI_COMPILED:samtec_tsw-102-07-g-s",
+                "Symbol": "b1f9278c9f2f6179",
+                "Unique ID": "1fb9863844ab5169",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-102-07-G-S\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie49",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Connectors | Pin_Headers/RP-01JV5X-LY21H5",
+                "FootprintName": "RPI_COMPILED:samtec_tsw-102-07-g-s"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "Pin_1",
+                    "number": "1",
+                    "net": "~{USB_BOOT}",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "Pin_2",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "7aadee231938cadd": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "51945459cf5fb04c",
+                "Footprint": "6f3d185220f7d357",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Connectors | Pin_Headers/RP-01JWH2-G371Y4",
+                "Designator": "J4",
+                "Value": "TSW-118-07-L-D",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-118-07-L-D\\\\datasheets",
+                "Description": "Pin Header, 02x18W, 2.54mm, PTH, Male",
+                "part_uid": "RP-01JWH2-G371Y4",
+                "status": "OK",
+                "manufacturer": "Samtec",
+                "manufacturer_pn": "TSW-118-07-L-D",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "z_height_max": "",
+                "size": "45.72x5.08x10.92mm",
+                "package": "",
+                "z_height_nom": "10.92mm",
+                "ki_fp_filters": "RPI_COMPILED:samtec_tsw-118-07-l-d",
+                "Symbol": "2d02f84a2d0c4ffa",
+                "Unique ID": "7aadee231938cadd",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-118-07-L-D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie52",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Connectors | Pin_Headers/RP-01JWH2-G371Y4",
+                "FootprintName": "RPI_COMPILED:samtec_tsw-118-07-l-d"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "Pin_1",
+                    "number": "1",
+                    "net": "GPIO29_ADC3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "Pin_2",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "Pin_3",
+                    "number": "3",
+                    "net": "GPIO28_ADC2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "Pin_4",
+                    "number": "4",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "Pin_5",
+                    "number": "5",
+                    "net": "GPIO27_ADC1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "Pin_6",
+                    "number": "6",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "Pin_7",
+                    "number": "7",
+                    "net": "GPIO26_ADC0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "Pin_8",
+                    "number": "8",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "Pin_9",
+                    "number": "9",
+                    "net": "GPIO25",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "Pin_10",
+                    "number": "10",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "Pin_11",
+                    "number": "11",
+                    "net": "GPIO24",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "Pin_12",
+                    "number": "12",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "Pin_13",
+                    "number": "13",
+                    "net": "GPIO23",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "Pin_14",
+                    "number": "14",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "Pin_15",
+                    "number": "15",
+                    "net": "GPIO22",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "Pin_16",
+                    "number": "16",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "Pin_17",
+                    "number": "17",
+                    "net": "GPIO21",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "Pin_18",
+                    "number": "18",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "Pin_19",
+                    "number": "19",
+                    "net": "GPIO20",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "Pin_20",
+                    "number": "20",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                },
+                "21": {
+                    "name": "Pin_21",
+                    "number": "21",
+                    "net": "GPIO19",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "21"
+                    }
+                },
+                "22": {
+                    "name": "Pin_22",
+                    "number": "22",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "22"
+                    }
+                },
+                "23": {
+                    "name": "Pin_23",
+                    "number": "23",
+                    "net": "GPIO18",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "23"
+                    }
+                },
+                "24": {
+                    "name": "Pin_24",
+                    "number": "24",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "24"
+                    }
+                },
+                "25": {
+                    "name": "Pin_25",
+                    "number": "25",
+                    "net": "GPIO17",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "25"
+                    }
+                },
+                "26": {
+                    "name": "Pin_26",
+                    "number": "26",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "26"
+                    }
+                },
+                "27": {
+                    "name": "Pin_27",
+                    "number": "27",
+                    "net": "GPIO16",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "27"
+                    }
+                },
+                "28": {
+                    "name": "Pin_28",
+                    "number": "28",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "28"
+                    }
+                },
+                "29": {
+                    "name": "Pin_29",
+                    "number": "29",
+                    "net": "RUN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "29"
+                    }
+                },
+                "30": {
+                    "name": "Pin_30",
+                    "number": "30",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "30"
+                    }
+                },
+                "31": {
+                    "name": "Pin_31",
+                    "number": "31",
+                    "net": "SWD",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "31"
+                    }
+                },
+                "32": {
+                    "name": "Pin_32",
+                    "number": "32",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "32"
+                    }
+                },
+                "33": {
+                    "name": "Pin_33",
+                    "number": "33",
+                    "net": "SWCLK",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "33"
+                    }
+                },
+                "34": {
+                    "name": "Pin_34",
+                    "number": "34",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "34"
+                    }
+                },
+                "35": {
+                    "name": "Pin_35",
+                    "number": "35",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "35"
+                    }
+                },
+                "36": {
+                    "name": "Pin_36",
+                    "number": "36",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "36"
+                    }
+                }
+            }
+        },
+        "bd3ee0abdb58119f": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "51945459cf5fb04c",
+                "Footprint": "2eb7b89d891135ec",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Connectors | Pin_Headers/RP-01JWH2-G371Y4",
+                "Designator": "J3",
+                "Value": "TSW-118-07-L-D",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-118-07-L-D\\\\datasheets",
+                "Description": "Pin Header, 02x18W, 2.54mm, PTH, Male",
+                "part_uid": "RP-01JWH2-G371Y4",
+                "status": "OK",
+                "manufacturer": "Samtec",
+                "manufacturer_pn": "TSW-118-07-L-D",
+                "packaging": "",
+                "packaging_qty": "",
+                "lcsc_pn": "",
+                "z_height_max": "",
+                "size": "45.72x5.08x10.92mm",
+                "package": "",
+                "z_height_nom": "10.92mm",
+                "ki_fp_filters": "RPI_COMPILED:samtec_tsw-118-07-l-d",
+                "Symbol": "2d02f84a2d0c4ffa",
+                "Unique ID": "bd3ee0abdb58119f",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Connectors\\\\Pin_Headers\\\\SAMTEC_TSW-118-07-L-D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie53",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Connectors | Pin_Headers/RP-01JWH2-G371Y4",
+                "FootprintName": "RPI_COMPILED:samtec_tsw-118-07-l-d"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "Pin_1",
+                    "number": "1",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "Pin_2",
+                    "number": "2",
+                    "net": "RPI - Power_PWR_NET",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "Pin_3",
+                    "number": "3",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "Pin_4",
+                    "number": "4",
+                    "net": "GPIO0",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                },
+                "5": {
+                    "name": "Pin_5",
+                    "number": "5",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "5"
+                    }
+                },
+                "6": {
+                    "name": "Pin_6",
+                    "number": "6",
+                    "net": "GPIO1",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "6"
+                    }
+                },
+                "7": {
+                    "name": "Pin_7",
+                    "number": "7",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "7"
+                    }
+                },
+                "8": {
+                    "name": "Pin_8",
+                    "number": "8",
+                    "net": "GPIO2",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "8"
+                    }
+                },
+                "9": {
+                    "name": "Pin_9",
+                    "number": "9",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "9"
+                    }
+                },
+                "10": {
+                    "name": "Pin_10",
+                    "number": "10",
+                    "net": "GPIO3",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "10"
+                    }
+                },
+                "11": {
+                    "name": "Pin_11",
+                    "number": "11",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "11"
+                    }
+                },
+                "12": {
+                    "name": "Pin_12",
+                    "number": "12",
+                    "net": "GPIO4",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "12"
+                    }
+                },
+                "13": {
+                    "name": "Pin_13",
+                    "number": "13",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "13"
+                    }
+                },
+                "14": {
+                    "name": "Pin_14",
+                    "number": "14",
+                    "net": "GPIO5",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "14"
+                    }
+                },
+                "15": {
+                    "name": "Pin_15",
+                    "number": "15",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "15"
+                    }
+                },
+                "16": {
+                    "name": "Pin_16",
+                    "number": "16",
+                    "net": "GPIO6",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "16"
+                    }
+                },
+                "17": {
+                    "name": "Pin_17",
+                    "number": "17",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "17"
+                    }
+                },
+                "18": {
+                    "name": "Pin_18",
+                    "number": "18",
+                    "net": "GPIO7",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "18"
+                    }
+                },
+                "19": {
+                    "name": "Pin_19",
+                    "number": "19",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "19"
+                    }
+                },
+                "20": {
+                    "name": "Pin_20",
+                    "number": "20",
+                    "net": "GPIO8",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "20"
+                    }
+                },
+                "21": {
+                    "name": "Pin_21",
+                    "number": "21",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "21"
+                    }
+                },
+                "22": {
+                    "name": "Pin_22",
+                    "number": "22",
+                    "net": "GPIO9",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "22"
+                    }
+                },
+                "23": {
+                    "name": "Pin_23",
+                    "number": "23",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "23"
+                    }
+                },
+                "24": {
+                    "name": "Pin_24",
+                    "number": "24",
+                    "net": "GPIO10",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "24"
+                    }
+                },
+                "25": {
+                    "name": "Pin_25",
+                    "number": "25",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "25"
+                    }
+                },
+                "26": {
+                    "name": "Pin_26",
+                    "number": "26",
+                    "net": "GPIO11",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "26"
+                    }
+                },
+                "27": {
+                    "name": "Pin_27",
+                    "number": "27",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "27"
+                    }
+                },
+                "28": {
+                    "name": "Pin_28",
+                    "number": "28",
+                    "net": "GPIO12",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "28"
+                    }
+                },
+                "29": {
+                    "name": "Pin_29",
+                    "number": "29",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "29"
+                    }
+                },
+                "30": {
+                    "name": "Pin_30",
+                    "number": "30",
+                    "net": "GPIO13",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "30"
+                    }
+                },
+                "31": {
+                    "name": "Pin_31",
+                    "number": "31",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "31"
+                    }
+                },
+                "32": {
+                    "name": "Pin_32",
+                    "number": "32",
+                    "net": "GPIO14",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "32"
+                    }
+                },
+                "33": {
+                    "name": "Pin_33",
+                    "number": "33",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "33"
+                    }
+                },
+                "34": {
+                    "name": "Pin_34",
+                    "number": "34",
+                    "net": "GPIO15",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "34"
+                    }
+                },
+                "35": {
+                    "name": "Pin_35",
+                    "number": "35",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "35"
+                    }
+                },
+                "36": {
+                    "name": "Pin_36",
+                    "number": "36",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "36"
+                    }
+                }
+            }
+        },
+        "995edf76733b549f": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "941c6c39364107e0",
+                "Footprint": "",
+                "PCB Layer": "Default",
+                "Name": "RPI - BOM Directives_SCH_BOM_REV",
+                "Designator": "SBREV1",
+                "Value": "S1",
+                "UserDocLink": "",
+                "Description": "<description>",
+                "Symbol": "deebcf8b7c7659c1",
+                "xdata2": "",
+                "Origin Footprint": "",
+                "Unique ID": "995edf76733b549f",
+                "Group ID": "",
+                "Channel ID": "$1ie54",
+                "Reuse Block": "",
+                "DeviceName": "RPI - BOM Directives_SCH_BOM_REV",
+                "FootprintName": ""
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "220c9828e5ec91fa": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "ac8f368bca1eff62",
+                "Footprint": "7ccc08febcc03fef",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Frequency_Timing | Crystals/RP-01G8X7-GS352B",
+                "Designator": "X1",
+                "Value": "12MHz",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Frequency_Timing\\\\Crystals\\\\ABRACON_ABM8-272-T3\\\\datasheets",
+                "Description": "XTAL, SMT, 12 MHz, Fundamental, Ftol=30ppm, Fstab=30ppm, 10pF, 3.2x2.5mm",
+                "part_uid": "RP-01G8X7-GS352B",
+                "status": "OK",
+                "manufacturer": "Abracon",
+                "manufacturer_pn": "ABM8-272-T3",
+                "packaging": "180mm dia. tape & reel",
+                "packaging_qty": "3000",
+                "lcsc_pn": "C20625731",
+                "z_height_max": "",
+                "esr": "50R Max",
+                "tolerance": "30ppm",
+                "size": "3.2x2.5x0.8mm",
+                "operating_temp_max": "+85C",
+                "freq_stability": "30ppm",
+                "operating_temp_min": "-40C",
+                "frequency": "12MHz",
+                "load_capacitance": "10pF",
+                "package": "M3225",
+                "z_height_nom": "0.8mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_xtalcc320x250x80-4",
+                "Symbol": "94eb853d90cef179",
+                "Unique ID": "220c9828e5ec91fa",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Frequency_Timing\\\\Crystals\\\\ABRACON_ABM8-272-T3\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie60",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Frequency_Timing | Crystals/RP-01G8X7-GS352B",
+                "FootprintName": "RPI_COMPILED:generic_xtalcc320x250x80-4"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "1",
+                    "number": "1",
+                    "net": "XIN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "2",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                },
+                "3": {
+                    "name": "3",
+                    "number": "3",
+                    "net": "$1N15",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "3"
+                    }
+                },
+                "4": {
+                    "name": "4",
+                    "number": "4",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "4"
+                    }
+                }
+            }
+        },
+        "a2c5d49bc5dde298": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "120588f935b8acad",
+                "Footprint": "c5c3dbc7f1f36107",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01C89W-LLY9XV",
+                "Designator": "C2",
+                "Value": "15p",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM1555C1H150JA01D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G",
+                "package": "M1005",
+                "voltage": "50V",
+                "dielectric": "C0G",
+                "tolerance": "5%",
+                "part_uid": "RP-01C89W-LLY9XV",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM1555C1H150JA01D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C76950",
+                "capacitance": "15p",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "C0G",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "91928fc245229eed",
+                "Unique ID": "a2c5d49bc5dde298",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM1555C1H150JA01D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie61",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01C89W-LLY9XV",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "XIN",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "fa6513a4994c6a62": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "02e8162a3cae5043",
+                "Footprint": "",
+                "PCB Layer": "Default",
+                "Name": "RPI - BOM Directives_PCB_PWB_REV",
+                "Designator": "PCB1",
+                "Value": "R3",
+                "UserDocLink": "",
+                "Description": "XXX",
+                "manufacturer": "XXX",
+                "manufacturer_pn": "XXX",
+                "xdata1": "XXX",
+                "Symbol": "412ca47752bc0af4",
+                "xdata2": "",
+                "Origin Footprint": "",
+                "Unique ID": "fa6513a4994c6a62",
+                "Group ID": "",
+                "Channel ID": "$1ie62",
+                "Reuse Block": "",
+                "DeviceName": "RPI - BOM Directives_PCB_PWB_REV",
+                "FootprintName": ""
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "9cdd622c9eeecfe7": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "8d8ba2bea8b653f0",
+                "Footprint": "029edec69c75e6d9",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-4Z6ZWY",
+                "Designator": "R5",
+                "Value": "1k",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Description": "Resistor, Chip, 1kR, M1005, 63mW, 1%",
+                "power": "63mW",
+                "tolerance": "1%",
+                "package": "M1005",
+                "part_uid": "RP-019A1P-4Z6ZWY",
+                "status": "OK",
+                "manufacturer": "Yageo",
+                "manufacturer_pn": "RC0402FR-071KL",
+                "packaging": "7 inch dia. paper taping reel",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C106235",
+                "voltage": "50V",
+                "z_height_max": "0.4mm",
+                "resistance": "1k",
+                "size": "1x0.5x0.35mm",
+                "operating_temp_max": "+155C",
+                "material": "Thick Film",
+                "temp_coefficient": "100ppm/degC",
+                "current": "",
+                "operating_temp_min": "-55C",
+                "z_height_nom": "0.35mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_resc1005x35",
+                "Symbol": "93135decca10dcbd",
+                "Unique ID": "9cdd622c9eeecfe7",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Resistors\\\\Chip\\\\M1005\\\\YAGEO_RC0402FR-07.autogen\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie67",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Resistors | Chip | M1005/RP-019A1P-4Z6ZWY",
+                "FootprintName": "RPI_COMPILED:generic_resc1005x35"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "$1N15",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "XOUT",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        },
+        "528675bd7082003c": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "9367c17d153cc69f",
+                "Footprint": "",
+                "PCB Layer": "Default",
+                "Name": "RPI - BOM Directives_VARIANT",
+                "Designator": "VARIANT1",
+                "Value": "RPI-RP2040-MINIMAL",
+                "UserDocLink": "",
+                "Description": "RP2040 Minimal Design Example",
+                "Symbol": "1be07761567207c6",
+                "xdata2": "",
+                "Origin Footprint": "",
+                "Unique ID": "528675bd7082003c",
+                "Group ID": "",
+                "Channel ID": "$1ie69",
+                "Reuse Block": "",
+                "DeviceName": "RPI - BOM Directives_VARIANT",
+                "FootprintName": ""
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {}
+        },
+        "cc82bf2c2e22e605": {
+            "props": {
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Device": "120588f935b8acad",
+                "Footprint": "3df54365c32f8022",
+                "PCB Layer": "Default",
+                "Name": "RPI_DB_Capacitors | MLCC | M1005/RP-01C89W-LLY9XV",
+                "Designator": "C3",
+                "Value": "15p",
+                "UserDocLink": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM1555C1H150JA01D\\\\datasheets",
+                "Description": "Capacitor, MLCC, 15pF, 5%, M1005, 50V, C0G",
+                "package": "M1005",
+                "voltage": "50V",
+                "dielectric": "C0G",
+                "tolerance": "5%",
+                "part_uid": "RP-01C89W-LLY9XV",
+                "status": "OK",
+                "manufacturer": "Murata",
+                "manufacturer_pn": "GRM1555C1H150JA01D",
+                "packaging": "180mm paper taping",
+                "packaging_qty": "10000",
+                "lcsc_pn": "C76950",
+                "capacitance": "15p",
+                "operating_temp_max": "+125C",
+                "material": "Ceramic",
+                "temp_coefficient": "C0G",
+                "operating_temp_min": "-55C",
+                "size": "1.0x0.5x0.5mm",
+                "z_height_nom": "0.5mm",
+                "ki_fp_filters": "RPI_COMPILED:generic_capc1005x50 RPI_COMPILED:generic_capc1005x50_wide",
+                "Symbol": "91928fc245229eed",
+                "Unique ID": "cc82bf2c2e22e605",
+                "Datasheet": "file:///C:\\\\rpi-pdb\\\\parts\\\\Capacitors\\\\MLCC\\\\M1005\\\\MURATA_GRM1555C1H150JA01D\\\\datasheets",
+                "Group ID": "",
+                "Channel ID": "$1ie74",
+                "Reuse Block": "",
+                "DeviceName": "RPI_DB_Capacitors | MLCC | M1005/RP-01C89W-LLY9XV",
+                "FootprintName": "RPI_COMPILED:generic_capc1005x50"
+            },
+            "altLibs": {
+                "devices": [],
+                "footprints": []
+            },
+            "pinInfoMap": {
+                "1": {
+                    "name": "",
+                    "number": "1",
+                    "net": "$1N15",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "1"
+                    }
+                },
+                "2": {
+                    "name": "",
+                    "number": "2",
+                    "net": "RPI - Power_GND",
+                    "pinClass": "",
+                    "pinDifferentialPairClass": "",
+                    "props": {
+                        "Pin Number": "2"
+                    }
+                }
+            }
+        }
+    },
+    "designRule": {
+        "trackPhysics": {
+            "copperThickness1oz": {
+                "name": "copperThickness1oz",
+                "isDefault": true,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.127,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            },
+            "copperThickness2oz": {
+                "name": "copperThickness2oz",
+                "isDefault": false,
+                "unit": "mm",
+                "strokeValue": {
+                    "common": {
+                        "min": 0.203,
+                        "max": 2.54,
+                        "default": 0.254
+                    }
+                }
+            }
+        },
+        "netRule": {
+            "GPIO10": {
+                "net": "GPIO10",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "RPI - Power_GND": {
+                "net": "RPI - Power_GND",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "RPI - Power_PWR_NET": {
+                "net": "RPI - Power_PWR_NET",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO24": {
+                "net": "GPIO24",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "$1N11": {
+                "net": "$1N11",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO7": {
+                "net": "GPIO7",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SD3": {
+                "net": "QSPI_SD3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "$1N15": {
+                "net": "$1N15",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO15": {
+                "net": "GPIO15",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO21": {
+                "net": "GPIO21",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO25": {
+                "net": "GPIO25",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO23": {
+                "net": "GPIO23",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO0": {
+                "net": "GPIO0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SCLK": {
+                "net": "QSPI_SCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "XIN": {
+                "net": "XIN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO2": {
+                "net": "GPIO2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO6": {
+                "net": "GPIO6",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO28_ADC2": {
+                "net": "GPIO28_ADC2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO14": {
+                "net": "GPIO14",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO11": {
+                "net": "GPIO11",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "USB_D-": {
+                "net": "USB_D-",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "~{USB_BOOT}": {
+                "net": "~{USB_BOOT}",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SS": {
+                "net": "QSPI_SS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO26_ADC0": {
+                "net": "GPIO26_ADC0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "$1N46": {
+                "net": "$1N46",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "USB_D+": {
+                "net": "USB_D+",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SD1": {
+                "net": "QSPI_SD1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO3": {
+                "net": "GPIO3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO1": {
+                "net": "GPIO1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SWCLK": {
+                "net": "SWCLK",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "XOUT": {
+                "net": "XOUT",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO17": {
+                "net": "GPIO17",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SD2": {
+                "net": "QSPI_SD2",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO18": {
+                "net": "GPIO18",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO29_ADC3": {
+                "net": "GPIO29_ADC3",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "RUN": {
+                "net": "RUN",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO5": {
+                "net": "GPIO5",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "$1N77": {
+                "net": "$1N77",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO8": {
+                "net": "GPIO8",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SWD": {
+                "net": "SWD",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "QSPI_SD0": {
+                "net": "QSPI_SD0",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO19": {
+                "net": "GPIO19",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO13": {
+                "net": "GPIO13",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO9": {
+                "net": "GPIO9",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO16": {
+                "net": "GPIO16",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO12": {
+                "net": "GPIO12",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO22": {
+                "net": "GPIO22",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO4": {
+                "net": "GPIO4",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO27_ADC1": {
+                "net": "GPIO27_ADC1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "GPIO20": {
+                "net": "GPIO20",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            }
+        }
+    },
+    "differentialPair": {},
+    "netClass": {},
+    "equalLengthNetGroup": {},
+    "differentialPairGroups": {}
+}

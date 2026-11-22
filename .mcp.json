@@ -1,0 +1,70 @@
+{
+  "mcpServers": {
+    "pcb": {
+      "command": "python",
+      "args": [
+        "tools/pcb_mcp.py"
+      ],
+      "cwd": ".",
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 120,
+      "supports_parallel_tool_calls": false,
+      "enabled_tools": [
+        "pcb_search",
+        "pcb_sources",
+        "pcb_case_search",
+        "pcb_inspect_local_project",
+        "pcb_query_board",
+        "pcb_eda_status",
+        "pcb_eda_sessions",
+        "pcb_eda_inspect",
+        "pcb_eda_open_pcb",
+        "pcb_eda_open_schematic_page",
+        "pcb_eda_connectivity",
+        "pcb_eda_ratlines",
+        "pcb_eda_drc",
+        "pcb_eda_copy",
+        "pcb_import_reference_project",
+        "pcb_eda_create_layout_board",
+        "pcb_eda_initialize_layout_board",
+        "pcb_eda_resume_layout",
+        "pcb_eda_register_visual_target",
+        "pcb_draw_preview",
+        "pcb_draw_apply",
+        "pcb_draw_export",
+        "pcb_draw_export_manufacturing",
+        "pcb_route_preview",
+        "pcb_route_start",
+        "pcb_route_status",
+        "pcb_route_cancel",
+        "pcb_route_export",
+        "pcb_eda_test_copy",
+        "pcb_eda_test_copy_cleanup"
+      ]
+    },
+    "windows_control": {
+      "command": "python",
+      "args": [
+        "tools/windows_mcp_launcher.py"
+      ],
+      "cwd": ".",
+      "startup_timeout_sec": 60,
+      "tool_timeout_sec": 60,
+      "supports_parallel_tool_calls": false,
+      "env": {
+        "ANONYMIZED_TELEMETRY": "false"
+      },
+      "enabled_tools": [
+        "App",
+        "Snapshot",
+        "Screenshot",
+        "Click",
+        "Type",
+        "Shortcut",
+        "Wait",
+        "WaitFor",
+        "ControlStatus"
+      ]
+    }
+  }
+}

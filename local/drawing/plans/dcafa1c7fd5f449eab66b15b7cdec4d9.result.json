@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status": "rejected",
+  "reason": "[object Object]",
+  "stage": "resolve-footprint-U3",
+  "error_type": "Error",
+  "rollback": "source_verified",
+  "recovery_required": false,
+  "committed": false,
+  "plan_id": "dcafa1c7fd5f449eab66b15b7cdec4d9",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/dcafa1c7fd5f449eab66b15b7cdec4d9.json"
+}

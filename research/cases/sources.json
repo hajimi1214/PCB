@@ -1,0 +1,560 @@
+[
+  {
+    "id": "case-esp32-s3-layout",
+    "title": "Espressif ESP32-S3 Hardware Design Guidelines — PCB Layout Design",
+    "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html",
+    "local_path": "research/cases/snapshots/esp32-s3-guide.html",
+    "sha256": "92318f21920eb2fc7d2ea0dc158c27edaa735e467a45b0f4e648759feaccc7a6",
+    "retrieved_at": "2026-11-21T08:07:16.136856+00:00",
+    "authority": "芯片厂商官方设计指南",
+    "license_or_terms": "Espressif 文档版权；仅本地研究快照，未确认可整体再分发许可证。",
+    "claims": [
+      "官方推荐四层：顶层信号/元件，第二层完整地，第三层电源/少量信号并保证 RF/晶振下方地，底层少量信号。",
+      "USB 差分阻抗 90 Ω±10%，尽量少换层，必要换层处配置一对地回流过孔，保持连续参考面。",
+      "RF 走线目标 50 Ω，模组天线位置、净空和外壳影响需要独立考虑。"
+    ],
+    "limitations": [
+      "芯片/模组适用条件不可混同，不能把 ESP32-S3 个别线宽、净空和等长数值推广给任意 MCU。",
+      "未在本项目进行 SI/PI 仿真或射频实测。"
+    ],
+    "evidence_snippets": [
+      "Layer 2 (GND): No signal traces here to ensure a complete GND plane.",
+      "Maintain a differential pair impedance of 90 Ω with a tolerance of ±10%."
+    ]
+  },
+  {
+    "id": "case-kicad-cli-9",
+    "title": "KiCad 9.0 Reference Manual — Command-Line Interface",
+    "url": "https://docs.kicad.org/9.0/en/cli/cli.html",
+    "local_path": "research/cases/snapshots/kicad-cli.html",
+    "sha256": "80aff1768f5a9eb7194c534b542e19260fe7132ccf82aa575b2ac2480bf6d408",
+    "retrieved_at": "2026-11-21T08:09:15.101664+00:00",
+    "authority": "KiCad 官方文档",
+    "license_or_terms": "GNU GPL v3+ 或 CC BY 3.0+，文档版权 The KiCad Documentation Contributors。",
+    "claims": [
+      "pcb drc 支持 JSON 报告、--schematic-parity 和 --exit-code-violations。",
+      "使用 --exit-code-violations 时发现违规返回 5，零违规返回 0。",
+      "sch erc、PCB Gerber、Excellon 钻孔等导出可由 CLI 执行。"
+    ],
+    "limitations": [
+      "仅适用于 KiCad 格式和匹配的版本；不是嘉立创专业版 DRC 接口。",
+      "本次只读取文档，没有安装或运行 KiCad；不能声称已对下载工程执行 DRC。"
+    ],
+    "evidence_snippets": [
+      "--schematic-parity: Test for parity between PCB and schematic.",
+      "The exit code is 0 if no violations are found, and 5 if any violations are found."
+    ]
+  },
+  {
+    "id": "case-freerouting-readme",
+    "title": "Freerouting — README",
+    "url": "https://api.github.com/repos/freerouting/freerouting/readme",
+    "local_path": "research/cases/snapshots/freerouting-readme.txt",
+    "sha256": "f31de0dec1e4dee27e4f46ad8befa289697789a55c2cbdc9617d3cd236add17e",
+    "retrieved_at": "2026-11-21T08:09:11.905083+00:00",
+    "authority": "工具官方仓库",
+    "license_or_terms": "GPL-3.0，另见同仓库 LICENSE；API 服务条款独立。",
+    "claims": [
+      "核心导入 Specctra/Electra DSN、导出 SES，支持 CLI/GUI/API。",
+      "README 提供 MCP 路径及本地执行模式。",
+      "CLI 的 -de / -do 分别指定输入设计与输出会话。"
+    ],
+    "limitations": [
+      "未验证嘉立创专业版能无损 DSN→SES 往返。",
+      "自动布线不会代替器件布局、层叠设计、阻抗、回流和最终 DRC。",
+      "远程 API beta、申请密钥及成本条件不能当成本地必备。"
+    ]
+  },
+  {
+    "id": "case-freerouting-license",
+    "title": "Freerouting — GNU GPL v3 license",
+    "url": "https://api.github.com/repos/freerouting/freerouting/license",
+    "local_path": "research/cases/snapshots/freerouting-license.txt",
+    "sha256": "e1c0ad728983d8a57335e52cf1064f1affd1d454173d8cebd3ed8b4a72b48704",
+    "retrieved_at": "2026-11-21T08:09:13.065121+00:00",
+    "authority": "工具官方仓库许可证",
+    "license_or_terms": "GNU GPL Version 3，需按具体集成与分发方式评估义务。",
+    "claims": [
+      "仓库 LICENSE 文本为 GPL Version 3。"
+    ],
+    "limitations": [
+      "开源工具许可证不等同于公开在线服务免费或无条件可用。"
+    ]
+  },
+  {
+    "id": "case-tscircuit-readme",
+    "title": "tscircuit — React for Circuits README",
+    "url": "https://api.github.com/repos/tscircuit/tscircuit/readme",
+    "local_path": "research/cases/snapshots/tscircuit-readme.txt",
+    "sha256": "816864ac4c228f53abb7363a6f1dbf814d0c222eca32007f2c11680a4676a937",
+    "retrieved_at": "2026-11-21T08:09:14.200990+00:00",
+    "authority": "工具官方仓库",
+    "license_or_terms": "MIT，另见同仓库 LICENSE。",
+    "claims": [
+      "TypeScript/React 描述元件和网络，支持电路与 PCB 预览及制造文件导出。",
+      "README 的电阻分压示例明确以 pin 与 net 表达连接，并给出 Gerber、BOM、坐标导出能力。"
+    ],
+    "limitations": [
+      "未核验嘉立创专业版原生工程双向编辑接口。",
+      "生成 Gerber 不能证明可编辑工程、器件映射、网络规则及布线在嘉立创内一致。"
+    ]
+  },
+  {
+    "id": "case-tscircuit-license",
+    "title": "tscircuit — MIT License",
+    "url": "https://api.github.com/repos/tscircuit/tscircuit/license",
+    "local_path": "research/cases/snapshots/tscircuit-license.txt",
+    "sha256": "a5f5fb24026081322e48c6de970de4300dbc516fcddf02468d74b3978909f156",
+    "retrieved_at": "2026-11-21T08:10:22.644679+00:00",
+    "authority": "工具官方仓库许可证",
+    "license_or_terms": "MIT，Copyright (c) 2024 tscircuit Inc.",
+    "claims": [
+      "许可证授予使用、复制、修改和分发权限并要求保留版权与许可声明。"
+    ],
+    "limitations": [
+      "下游元件库、数据服务与其他依赖需各自核对。"
+    ],
+    "git_blob_sha": "705942dcfd1d15aa7ff584589d86f7f519aab3d5",
+    "origin_path": "LICENSE"
+  },
+  {
+    "id": "case-olimex-readme",
+    "title": "OLIMEX ESP32-PoE — README",
+    "url": "https://api.github.com/repos/OLIMEX/ESP32-POE/git/blobs/da9d68bc2eff66a164cebf9859826f8ae5cee5b4",
+    "local_path": "research/cases/snapshots/olimex-readme.md",
+    "sha256": "420a6bcdddc0b7ef5fcb0f3bd6b60e15e184175c49d92e1c2dbc76ed3bdfee6c",
+    "retrieved_at": "2026-11-21T08:10:20.966644+00:00",
+    "authority": "硬件设计者官方开源仓库",
+    "license_or_terms": "硬件 Apache 2.0；软件 GPL3；文档 CC BY-SA 3.0。",
+    "claims": [
+      "项目是带 Wi-Fi/BLE/Ethernet 和 PoE 的 ESP32 开发板。",
+      "README 对硬件、软件、文档分别声明许可证，不能用根 LICENSE 覆盖全部资料。"
+    ],
+    "limitations": [
+      "包含 PoE 电源等复杂功能，不推荐完整照搬为第一块四层 MCU 验证板。"
+    ],
+    "git_blob_sha": "da9d68bc2eff66a164cebf9859826f8ae5cee5b4",
+    "origin_path": "README.md"
+  },
+  {
+    "id": "case-olimex-license",
+    "title": "OLIMEX ESP32-PoE — Apache License 2.0",
+    "url": "https://api.github.com/repos/OLIMEX/ESP32-POE/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "local_path": "research/cases/snapshots/olimex-license.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "retrieved_at": "2026-11-21T08:10:20.938119+00:00",
+    "authority": "硬件设计者官方许可证",
+    "license_or_terms": "Apache License Version 2.0。",
+    "claims": [
+      "根 LICENSE 为 Apache 2.0，与 README 的硬件许可声明对应。"
+    ],
+    "limitations": [
+      "软件和文档分别按 README 所列许可证处理。"
+    ],
+    "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "origin_path": "LICENSE"
+  },
+  {
+    "id": "case-olimex-b1-pcb",
+    "title": "OLIMEX ESP32-PoE B1 — KiCad PCB",
+    "url": "https://api.github.com/repos/OLIMEX/ESP32-POE/git/blobs/943faf085f3b16eef4afc14ccbc1350e22915ffd",
+    "local_path": "research/cases/snapshots/olimex-b1-pcb.kicad_pcb",
+    "sha256": "b2b32abbbee77ef0e9eb36abd5a0e10534105dc51c111eb88f670143e7b33720",
+    "retrieved_at": "2026-11-21T08:10:21.441327+00:00",
+    "authority": "硬件设计者官方工程，Git blob 锁定",
+    "license_or_terms": "硬件 Apache-2.0；本项目仅研究，不直接作为新设计。",
+    "claims": [
+      "实际解析两铜层 F.Cu/B.Cu，板厚 1.6 mm，123 个 module，133 条 net 声明包含空网。",
+      "实际解析 2429 个 segment、176 个 via。",
+      "U4 的重复焊盘号 33 同接 GND；USB-UART1 有同号外壳焊盘与无编号 NPTH。",
+      "U9 是 ESP-WROOM-32；网络含 +5V、+3V3、GND、RMII 与 UART。"
+    ],
+    "limitations": [
+      "此工程是两层，不能当作已验证的四层案例。",
+      "未执行电气仿真、KiCad DRC 或嘉立创导入。"
+    ],
+    "git_blob_sha": "943faf085f3b16eef4afc14ccbc1350e22915ffd",
+    "origin_path": "HARDWARE/ESP32-PoE-hardware-revision-B1/ESP32-PoE_Rev_B1.kicad_pcb",
+    "revision_tree_sha": "deb38a377d50eadb04ddc7118a17a5ae58b1ee53",
+    "evidence_snippets": [
+      "(0 F.Cu mixed) / (31 B.Cu mixed)",
+      "(net 2 GND)",
+      "(pad 33 smd ...) and multiple pad 33 thru_hole entries share net GND."
+    ]
+  },
+  {
+    "id": "case-olimex-b1-sch",
+    "title": "OLIMEX ESP32-PoE B1 — Legacy KiCad schematic",
+    "url": "https://api.github.com/repos/OLIMEX/ESP32-POE/git/blobs/ba9896b137fcd393b6b64bcb084aab49983887d1",
+    "local_path": "research/cases/snapshots/olimex-b1-sch.sch",
+    "sha256": "55461697848c71c2ed39e85998577b0a36c5d946e5a7013ac4d1531b32a102c6",
+    "retrieved_at": "2026-11-21T08:10:21.395722+00:00",
+    "authority": "硬件设计者官方工程，Git blob 锁定",
+    "license_or_terms": "硬件 Apache-2.0。",
+    "claims": [
+      "取得对应 B1 原理图文本，可与 PCB 中器件位号/网络核对。"
+    ],
+    "limitations": [
+      "尚未编写完整旧版原理图连通性解析器，未证明全板原理图与 PCB 电气一致。"
+    ],
+    "git_blob_sha": "ba9896b137fcd393b6b64bcb084aab49983887d1",
+    "origin_path": "HARDWARE/ESP32-PoE-hardware-revision-B1/ESP32-PoE_Rev_B1.sch"
+  },
+  {
+    "id": "case-rp2040-pcb",
+    "title": "Raspberry Pi RP2040 Minimal Design Example R3 — PCB",
+    "url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "local_path": "research/cases/snapshots/rp2040-RPI-RP2040-MINIMAL_R3-S1.kicad_pcb",
+    "sha256": "f6c8e633a567ca884b269dc7ec934bebbce28534d0fdb84623a007840a01a471",
+    "retrieved_at": "2026-11-21T08:15:18.891440+00:00",
+    "authority": "Raspberry Pi 官方 datasheets 域名提供的硬件设计包",
+    "license_or_terms": "MIT，包内 LICENSE.txt 明确，Copyright (c) 2026 Raspberry Pi Ltd。",
+    "claims": [
+      "实际 PCB 为 KiCad 10.0 / version 20260206，日期 2026-07-03，板厚 1 mm，两铜层 F.Cu/B.Cu。",
+      "实际解析 34 个 footprint、313 个 segment、28 个 via。",
+      "U3 RP2040 的 46/47 焊盘分别为 USB_DM/USB_DP；U2 W25Q128JVSIQ 的 1/2/3/5/6/7 对应 QSPI_SS/SD1/SD2/SD0/SCLK/SD3。",
+      "U3 的重复焊盘号 57 接 GND，可检验多物理焊盘对应同一逻辑引脚。"
+    ],
+    "limitations": [
+      "官方当前示例是两层；本项目目标四层重布局需独立验证。",
+      "KiCad 9 文档不足以保证兼容这个 KiCad 10 源文件。"
+    ],
+    "archive_member": "RPI-RP2040-MINIMAL_R3-S1_public/RPI-RP2040-MINIMAL_R3-S1.kicad_pcb",
+    "archive_url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "evidence_snippets": [
+      "(generator_version \"10.0\")",
+      "(thickness 1)",
+      "(0 \"F.Cu\" signal) / (2 \"B.Cu\" signal)"
+    ]
+  },
+  {
+    "id": "case-rp2040-schematic",
+    "title": "Raspberry Pi RP2040 Minimal Design Example R3 — schematic",
+    "url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "local_path": "research/cases/snapshots/rp2040-RPI-RP2040-MINIMAL_R3-S1.kicad_sch",
+    "sha256": "b72204fe19d41573968c9c9178403c5ad20262923d339846dd24dffdd6306c25",
+    "retrieved_at": "2026-11-21T08:15:18.893440+00:00",
+    "authority": "Raspberry Pi 官方 datasheets 域名提供的硬件设计包",
+    "license_or_terms": "MIT，包内 LICENSE.txt 明确，Copyright (c) 2026 Raspberry Pi Ltd。",
+    "claims": [
+      "取得同包对应 MCU、USB、QSPI 外部 Flash 和调试原理图文本。"
+    ],
+    "limitations": [
+      "仅查看文本关键内容，未运行 ERC 或完整网络提取。"
+    ],
+    "archive_member": "RPI-RP2040-MINIMAL_R3-S1_public/RPI-RP2040-MINIMAL_R3-S1.kicad_sch",
+    "archive_url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-rp2040-project",
+    "title": "Raspberry Pi RP2040 Minimal Design Example R3 — project settings",
+    "url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "local_path": "research/cases/snapshots/rp2040-RPI-RP2040-MINIMAL_R3-S1.kicad_pro",
+    "sha256": "0d871e3c2f2c76fd2141c46c03371d295adff3d63da2477bc3840ed9aedfe6d6",
+    "retrieved_at": "2026-11-21T08:15:18.891440+00:00",
+    "authority": "Raspberry Pi 官方 datasheets 域名提供的硬件设计包",
+    "license_or_terms": "MIT，包内 LICENSE.txt 明确，Copyright (c) 2026 Raspberry Pi Ltd。",
+    "claims": [
+      "取得与 PCB/原理图同包的 kicad_pro 工程设置，可用于版本/规则来源研究。"
+    ],
+    "limitations": [
+      "不能把该示例的规则值直接映射成当前嘉立创订单能力。"
+    ],
+    "archive_member": "RPI-RP2040-MINIMAL_R3-S1_public/RPI-RP2040-MINIMAL_R3-S1.kicad_pro",
+    "archive_url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-rp2040-license",
+    "title": "Raspberry Pi RP2040 Minimal Design Example — MIT License",
+    "url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "local_path": "research/cases/snapshots/rp2040-LICENSE.txt",
+    "sha256": "b01f852b57e955edeb4001c02fb3a204bd7309a19d8185a6312598f977d656cc",
+    "retrieved_at": "2026-11-21T08:15:18.884899+00:00",
+    "authority": "Raspberry Pi 官方 datasheets 域名提供的硬件设计包",
+    "license_or_terms": "MIT，包内 LICENSE.txt 明确，Copyright (c) 2026 Raspberry Pi Ltd。",
+    "claims": [
+      "包内 LICENSE.txt 载明 MIT、Copyright (c) 2026 Raspberry Pi Ltd，并说明实物尺寸需要自行测量核验。"
+    ],
+    "limitations": [
+      "不是所有 Raspberry Pi 文档均自动适用此包许可证。"
+    ],
+    "archive_member": "RPI-RP2040-MINIMAL_R3-S1_public/LICENSE.txt",
+    "archive_url": "https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-one-readme",
+    "title": "Great Scott Gadgets HackRF One hardware README — four-layer stackup",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/2e7acfbf8435ccdd9a1fdf5713ff20ef2271b5ac",
+    "local_path": "research/cases/snapshots/hackrf-one-readme.txt",
+    "sha256": "28db488a377158cc39954d2bf18bbf788fac03467462e1cb686faca2990048ae",
+    "retrieved_at": "2026-11-21T08:24:42.327457+00:00",
+    "authority": "硬件设计者官方仓库 README（仓库内 PCB 制造备注）",
+    "license_or_terms": "该仓库声明 CERN-OHL-P v2 Permissive；实际复用需遵守该许可并保留声明。",
+    "claims": [
+      "README 明确写 4 层 1.6 mm，次序 C1F/C2/C3/C4B。",
+      "说明外层铜 0.035 mm、内层铜 0.0152 mm；介质 0.2104/1.065/0.2104 mm，7628 介质 Er=4.6±0.1。",
+      "README 记载 50 Ω±5% 与 11.55 mil microstrip；此值只适配所述具体堆叠，不能转抄为嘉立创叠层规则。"
+    ],
+    "limitations": [
+      "这是宽带软件无线电，不是常规 MCU 控制器；包含敏感 RF/USB，案例只用于层序/约束结构和原始工程解析。",
+      "这是仓库 READM​​E 中的制造备注，与当前 PCB 文件所有参数未独立做生产/阻抗实测验证。",
+      "未在嘉立创专业版导入，也未跑阻抗场求解器/制造 DFM。"
+    ],
+    "git_blob_sha": "2e7acfbf8435ccdd9a1fdf5713ff20ef2271b5ac",
+    "evidence_snippets": [
+      "Copper 1: C1F (front)",
+      "Copper 2: C2",
+      "Copper 3: C3",
+      "Copper 4: C4B (back)",
+      "(1*16)"
+    ]
+  },
+  {
+    "id": "case-hackrf-one-pcb",
+    "title": "Great Scott Gadgets HackRF One — KiCad PCB source",
+    "url": "https://github.com/greatscottgadgets/hackrf/blob/master/hardware/hackrf-one/hackrf-one.kicad_pcb",
+    "local_path": "research/cases/snapshots/hackrf-one-pcb.kicad_pcb",
+    "sha256": "558d73553c7c2b2ae77dad541c87e671f3b2e982306f25e6fabed8d1e879e438",
+    "retrieved_at": "2026-11-21T08:31:52.968505+00:00",
+    "authority": "硬件设计者官方 Git 仓库，Git blob 固定",
+    "license_or_terms": "CERN-OHL-P v2 Permissive，以仓库 LICENSE 为准。",
+    "claims": [
+      "KiCad 文件 version 20211014。",
+      "实际解析四层：F.Cu=C1F、In1.Cu=C2、In2.Cu=C3、B.Cu=C4B；板厚记录 1.6116 mm。",
+      "顶层解析出 437 footprints、3817 track segments、498 vias、380 net 定义、9 zones。",
+      "走线分布：F.Cu 2848、B.Cu 925、In1.Cu 29、In2.Cu 15 segments；区域含 In1.Cu 的 GND、In2.Cu 的 VCC 与 VAA。",
+      "LPC4320FBD144 作为已确认 MCU，值来自实际 footprint 属性。"
+    ],
+    "limitations": [
+      "不是普通 MCU 控制板的简化模板；不能把 RF/电源分割示例未经判断照搬。",
+      "结构解析仅统计树顶层对象；未运行 KiCad DRC，也未验证原理图-板全网一致性。",
+      "不能依据通用 KiCad 可解析推断嘉立创原生可往返。"
+    ],
+    "git_blob_sha": "595018625ecb38e1041425b8fa6e38f42b4ef6be",
+    "evidence_snippets": [
+      "(version 20211014)",
+      "(0 \"F.Cu\" signal \"C1F\") / (1 \"In1.Cu\" signal \"C2\") / (2 \"In2.Cu\" signal \"C3\") / (31 \"B.Cu\" signal \"C4B\")",
+      "(zone (net_name \"GND\") (layer \"In1.Cu\"))",
+      "(zone (net_name \"VCC\") (layer \"In2.Cu\"))",
+      "(footprint … (property \"Part Number\" \"LPC4320FBD144,551\"))"
+    ]
+  },
+  {
+    "id": "case-hackrf-one-mcu-sch",
+    "title": "Great Scott Gadgets HackRF One — MCU schematic sheet",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/087ea542647b7faed4cab376cb07fd8ca0586ea9",
+    "local_path": "research/cases/snapshots/hackrf-one-mcu-sch.kicad_sch",
+    "sha256": "de07470d47e1ab10fc6d69788aaff081043870711618897e0d83a8f0437666fa",
+    "retrieved_at": "2026-11-21T08:25:08.182290+00:00",
+    "authority": "硬件设计者官方 Git 仓库，Git blob 固定",
+    "license_or_terms": "CERN-OHL-P v2 Permissive。",
+    "claims": [
+      "仓库列为 PCB 对应 MCU 原理图页（mcu.kicad_sch），可作为工程关系追溯来源。"
+    ],
+    "limitations": [
+      "未解析整张多文件层次原理图，也未完成 PCB 对应所有层次页的整体连通性检查。"
+    ],
+    "git_blob_sha": "087ea542647b7faed4cab376cb07fd8ca0586ea9",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-one-license",
+    "title": "Great Scott Gadgets HackRF One — CERN-OHL-P license",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/47cbf15e5fd99625f79546a3261b9f3f3e0d9111",
+    "local_path": "research/cases/snapshots/hackrf-one-license.txt",
+    "sha256": "2ee68e63fd7f724c9d6a42a517bec9d451dca2234c9024882cc4faeaed95e499",
+    "retrieved_at": "2026-11-21T08:24:42.153759+00:00",
+    "authority": "硬件设计者官方仓库 LICENSE",
+    "license_or_terms": "CERN Open Hardware Licence v2 - Permissive。",
+    "claims": [
+      "LICENSE 明确为 CERN-OHL-P v2。"
+    ],
+    "limitations": [
+      "条款对 covered source、署名和再分发要求需在采用源设计前逐条复核。"
+    ],
+    "git_blob_sha": "47cbf15e5fd99625f79546a3261b9f3f3e0d9111",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-adafruit-f405-pcb",
+    "title": "Adafruit Feather STM32F405 Express — Eagle board (two-layer identification negative case)",
+    "url": "https://api.github.com/repos/adafruit/Adafruit-Feather-STM32F405-Express-PCB/git/blobs/0e9032b73f3c8115bd2fc594a8071e7838fc931c",
+    "local_path": "research/cases/snapshots/adafruit-f405-pcb.brd",
+    "sha256": "9357dc1dddde01fd5e93a1eebd5ae37742d1e55f0dd7190d0b39456d39b1df5b",
+    "retrieved_at": "2026-11-21T08:38:07.085033+00:00",
+    "authority": "Adafruit official Git repository",
+    "license_or_terms": "CC BY-SA 3.0; README requires attribution and ShareAlike.",
+    "claims": [
+      "Actual Eagle XML contains designrules layerSetup=(1*16), 588 signal wires on layer 1, and 227 on layer 16; each layer has one polygon. Thus the file demonstrates a two-layer board, not 16 copper layers.",
+      "Actual board includes an STM32F405R component and USB D+/D− signals."
+    ],
+    "limitations": [
+      "Used only to test actual-layer parsing, not as a design to copy.",
+      "Did not run Adafruit Eagle DRC or re-manufacture the board."
+    ],
+    "git_blob_sha": "0e9032b73f3c8115bd2fc594a8071e7838fc931c",
+    "evidence_snippets": [
+      "<param name=\"layerSetup\" value=\"(1*16)\"/>",
+      "STM32F405R footprint/value in .brd; USB D+/D− signals"
+    ]
+  },
+  {
+    "id": "case-adafruit-f405-license",
+    "title": "Adafruit Feather STM32F405 Express — license",
+    "url": "https://api.github.com/repos/adafruit/Adafruit-Feather-STM32F405-Express-PCB/git/blobs/1d1e1d6e88579dd32086b23e95723a0f4864c22a",
+    "local_path": "research/cases/snapshots/adafruit-f405-license.txt",
+    "sha256": "075dad5e5fc96c27014fabc269f4f5732909cffd178a486f546d982b6cf86b74",
+    "retrieved_at": "2026-11-21T08:38:07.085743+00:00",
+    "authority": "Adafruit official Git repository",
+    "license_or_terms": "CC BY-SA 3.0.",
+    "claims": [
+      "Repo license text states Creative Commons Attribution-ShareAlike 3.0 Unported."
+    ],
+    "limitations": [
+      "Review full ShareAlike and attribution requirements before reusing or adapting board content."
+    ],
+    "git_blob_sha": "1d1e1d6e88579dd32086b23e95723a0f4864c22a",
+    "evidence_snippets": [
+      "Attribution-ShareAlike 3.0 Unported"
+    ]
+  },
+  {
+    "id": "case-adafruit-f405-readme",
+    "title": "Adafruit Feather STM32F405 Express — README",
+    "url": "https://api.github.com/repos/adafruit/Adafruit-Feather-STM32F405-Express-PCB/git/blobs/db5bace27c3022cf7753bcf9f98078bb491331cf",
+    "local_path": "research/cases/snapshots/adafruit-f405-readme.md",
+    "sha256": "0ad7e1e2641e58a8aa9e8bb7e4d280b1096ef7eff49a05d0abfb09af98bf1778",
+    "retrieved_at": "2026-11-21T08:38:07.086748+00:00",
+    "authority": "Adafruit official Git repository",
+    "license_or_terms": "CC BY-SA 3.0; README demands attribution and includes conditions on redistribution.",
+    "claims": [
+      "README identifies the project as Eagle schematic and board-layout design files, and describes STM32F405 Cortex-M4, USB-C and SDIO."
+    ],
+    "limitations": [
+      "General product prose is not fabrication/DRC evidence."
+    ],
+    "git_blob_sha": "db5bace27c3022cf7753bcf9f98078bb491331cf",
+    "evidence_snippets": [
+      "EagleCAD schematic and board layout"
+    ]
+  },
+  {
+    "id": "case-hackrf-main-schematic",
+    "title": "Great Scott Gadgets HackRF One — root schematic sheet",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/dec712560b76e0e16b67bece1f841fba0bb4f620",
+    "local_path": "research/cases/snapshots/hackrf-one.kicad_sch",
+    "sha256": "c9ee4e2b92119338a3f8029674482e6b920f3343a4577c56b34d45b85f281b08",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": [
+      "Fetched the root KiCad schematic sheet for assembling a complete source project package."
+    ],
+    "limitations": [
+      "Downloaded and hash-verified; full hierarchical netlist and ERC have not been independently validated."
+    ],
+    "git_blob_sha": "dec712560b76e0e16b67bece1f841fba0bb4f620",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-baseband-schematic",
+    "title": "Great Scott Gadgets HackRF One — baseband schematic sheet",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/6a651b26712ef3e8d8355262cd0f0fafeb36dfa5",
+    "local_path": "research/cases/snapshots/baseband.kicad_sch",
+    "sha256": "4012494dc03e32505a5a5199c9c42852db6649b6ebd3b5f51284be34682bd1ec",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched the baseband hierarchical sheet associated with the HackRF One source project."],
+    "limitations": ["Downloaded and hash-verified; ERC and board parity have not been independently validated."],
+    "git_blob_sha": "6a651b26712ef3e8d8355262cd0f0fafeb36dfa5",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-frontend-schematic",
+    "title": "Great Scott Gadgets HackRF One — RF frontend schematic sheet",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/a84df997a3f843c0fb9b2c685a8eb2c5e59df1a8",
+    "local_path": "research/cases/snapshots/frontend.kicad_sch",
+    "sha256": "3e25bb217377f7fdfc4f98e647cf61edacd66ffb53c9416019be396567ba9f0f",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched the RF frontend hierarchical sheet associated with the HackRF One source project."],
+    "limitations": ["Downloaded and hash-verified; RF behavior, stackup suitability and board parity are not verified."],
+    "git_blob_sha": "a84df997a3f843c0fb9b2c685a8eb2c5e59df1a8",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-project-settings",
+    "title": "Great Scott Gadgets HackRF One — KiCad project settings",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/957ce5a238049b7dcb906fc6ae186557461f569c",
+    "local_path": "research/cases/snapshots/hackrf-one.kicad_pro",
+    "sha256": "38a976062a0fc88b4617605410e8ed5f71da87e7d8f544e9e3f61ef95b8efc35",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched KiCad  project settings associated with the HackRF One board and schematics."],
+    "limitations": ["Project rules are source-project settings and are not JLCEDA manufacturing requirements."],
+    "git_blob_sha": "957ce5a238049b7dcb906fc6ae186557461f569c",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-cache-library",
+    "title": "Great Scott Gadgets HackRF One — cached legacy symbols",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/eb1d499c0bd3daf57dac75700f5029d984bf49a3",
+    "local_path": "research/cases/snapshots/hackrf-one-cache.lib",
+    "sha256": "29e52339a261ba2dc08c175289fb084ab6f3d66351bd40de237df7655dc26f03",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched cached symbol definitions referenced by the legacy KiCad schematic source."],
+    "limitations": ["Downloaded for local import compatibility; individual symbols have not been semantically audited."],
+    "git_blob_sha": "eb1d499c0bd3daf57dac75700f5029d984bf49a3",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-symbol-library-table",
+    "title": "Great Scott Gadgets HackRF One — symbol library table",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/d06ef730c1e0e32c0657db6acb6c4d93e977adcc",
+    "local_path": "research/cases/snapshots/sym-lib-table",
+    "sha256": "4c9709ebcd064445b4aa01724929ab2fc5c8ac5d53a8976cad9f31ad6d386353",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched project-level KiCad symbol library references."],
+    "limitations": ["Library table paths may refer to libraries not included in this hardware subdirectory."],
+    "git_blob_sha": "d06ef730c1e0e32c0657db6acb6c4d93e977adcc",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-footprint-library-table",
+    "title": "Great Scott Gadgets HackRF One — footprint library table",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/2ec941427f9db2f25264fbffefc1d4fb952bb3b6",
+    "local_path": "research/cases/snapshots/fp-lib-table",
+    "sha256": "83a4c23df8b3327a4f5afc54db01d828a76a20ea1619e0a057357d5755e19ca5",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched project-level KiCad footprint library references."],
+    "limitations": ["Table paths may refer to libraries not included in this hardware subdirectory."],
+    "git_blob_sha": "2ec941427f9db2f25264fbffefc1d4fb952bb3b6",
+    "evidence_snippets": []
+  },
+  {
+    "id": "case-hackrf-sym-library",
+    "title": "Great Scott Gadgets HackRF One — custom 74AUP2G58 symbol library",
+    "url": "https://api.github.com/repos/greatscottgadgets/hackrf/git/blobs/d7c721ade490ae9055eff8ea0c4b969a715e7ee8",
+    "local_path": "research/cases/snapshots/74AUP2G58GU.kicad_sym",
+    "sha256": "300589be7f2fa33eab5ae134de6580734d5d2721987e917bd0d6fca004e4f214",
+    "retrieved_at": "2026-11-22T14:56:50+08:00",
+    "authority": "Great Scott Gadgets official Git repository; Git blob SHA verified",
+    "license_or_terms": "CERN-OHL-P v2 Permissive, per the hardware repository LICENSE.",
+    "claims": ["Fetched a custom project symbol library referenced by the source schematic."],
+    "limitations": ["One custom symbol library does not resolve every system-library dependency."],
+    "git_blob_sha": "d7c721ade490ae9055eff8ea0c4b969a715e7ee8",
+    "evidence_snippets": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status": "rejected",
+  "reason": "{\"name\":\"Error\",\"message\":\"[object Object]\"}",
+  "stage": "create-footprint-C5",
+  "error_type": "Error",
+  "rollback": "source_verified",
+  "recovery_required": false,
+  "committed": false,
+  "plan_id": "c8016ece605a4ab1900a72f11ddb2c93",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/c8016ece605a4ab1900a72f11ddb2c93.json"
+}

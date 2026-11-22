@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "eda-ai-cli",
+    "title": "官方面向 AI 的客户端 CLI 详细工作流",
+    "url": "https://prodocs.lceda.cn/storage/texts/api/guide/cli-for-ai.md",
+    "local_path": "research/eda/snapshots/eda-ai-cli.md",
+    "sha256": "78c1fd8e0ec97322ac8c52d86a006a0e882a4e430bf5f793120b7a08db2ebb6c",
+    "retrieved_at": "2026-11-21T08:21:21.796527+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "官方公开文档，未见开放再分发许可；仅本地研究",
+    "claims": [
+      "官方面向 AI 的客户端 CLI 详细工作流"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "evidence": [
+      {
+        "locator": "4.1 / 4.4 / 11.3",
+        "short_quote": "Mainland China: lceda-pro；Schematic: 10mil；PCB: mil"
+      }
+    ]
+  },
+  {
+    "id": "eda-ai-init",
+    "title": "官方 AI 向导以 SDK engines 为最低 Node 版本依据",
+    "url": "https://prodocs.lceda.cn/storage/texts/api/guide/how-to-start-for-ai.md",
+    "local_path": "research/eda/snapshots/eda-ai-init.md",
+    "sha256": "32951707fd72b361fbc805740b1b916a768431f443a2b7ed142addd1b7b62feb",
+    "retrieved_at": "2026-11-21T08:14:23.361733+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "官方公开文档，未见开放再分发许可；仅本地研究",
+    "claims": [
+      "官方 AI 向导以 SDK engines 为最低 Node 版本依据"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "官方 AI 向导以 SDK engines 为最低 Node 版本依据"
+      }
+    ]
+  },
+  {
+    "id": "eda-api-skill-package",
+    "title": "官方 Skill 的软件包声明、Node 版本及依赖",
+    "url": "https://api.github.com/repos/easyeda/easyeda-api-skill/contents/package.json",
+    "local_path": "research/eda/snapshots/eda-api-skill-package.json",
+    "sha256": "a5048189f0909004d3fe82ca9ad964e97482c0418f2997b98cef43c7ba8253d1",
+    "retrieved_at": "2026-11-21T08:14:24.364130+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "按 package.json 原文核实；不将声明扩展为每个文档授权",
+    "claims": [
+      "官方 Skill 的软件包声明、Node 版本及依赖"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-api-skill-package.decoded.txt",
+    "upstream_blob_sha": "bbda5e6869edc328d57317836f895de4eede3b7f",
+    "upstream_html_url": "https://github.com/easyeda/easyeda-api-skill/blob/main/package.json",
+    "evidence": [
+      {
+        "locator": "package.json",
+        "short_quote": "version: 1.1.85；server: node scripts/bridge-server.mjs"
+      }
+    ]
+  },
+  {
+    "id": "eda-api-skill-readme",
+    "title": "官方 Skill 的桥接 HTTP API、端口和文档结构",
+    "url": "https://api.github.com/repos/easyeda/easyeda-api-skill/contents/README.md",
+    "local_path": "research/eda/snapshots/eda-api-skill-readme.json",
+    "sha256": "173add796c8a7638f8d639b5ff156b5bdfe31152a7df5683298233c7ac2fcd9d",
+    "retrieved_at": "2026-11-21T08:14:23.235845+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "未确认，GitHub 仓库元数据 license=null；不再分发其源码",
+    "claims": [
+      "官方 Skill 的桥接 HTTP API、端口和文档结构"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-api-skill-readme.decoded.txt",
+    "upstream_blob_sha": "7554cdbfd8cbbb31fedd5cae05830bce5fa94d07",
+    "upstream_html_url": "https://github.com/easyeda/easyeda-api-skill/blob/main/README.md",
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "官方 Skill 的桥接 HTTP API、端口和文档结构"
+      }
+    ]
+  },
+  {
+    "id": "eda-api-skill-server",
+    "title": "真实桥接服务实现，用于研究连接与错误边界",
+    "url": "https://api.github.com/repos/easyeda/easyeda-api-skill/contents/scripts/bridge-server.mjs",
+    "local_path": "research/eda/snapshots/eda-api-skill-server.json",
+    "sha256": "4957809c55571845b14fb8484fb8943d38c1150f72e200a37b509e4b06befb4d",
+    "retrieved_at": "2026-11-21T08:14:55.304760+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "未核实独立授权；快照仅本地研究",
+    "claims": [
+      "真实桥接服务实现，用于研究连接与错误边界"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-api-skill-server.decoded.txt",
+    "upstream_blob_sha": "feedbf401b0fe2fed87fc41dc2efbd94c4ed7b36",
+    "upstream_html_url": "https://github.com/easyeda/easyeda-api-skill/blob/main/scripts/bridge-server.mjs",
+    "evidence": [
+      {
+        "locator": "LISTEN_HOST 和路由",
+        "short_quote": "127.0.0.1；GET /health；GET /eda-windows；POST /execute"
+      }
+    ]
+  },
+  {
+    "id": "eda-gateway-manifest",
+    "title": "网关 1.0.9 / eda ~3.2.0 / Run API Gateway",
+    "url": "https://api.github.com/repos/easyeda/eext-run-api-gateway/contents/extension.json",
+    "local_path": "research/eda/snapshots/eda-gateway-manifest.json",
+    "sha256": "a6aa744626ac54da40d21f0d3493333ed3b9130f7fd6aaabee9954111418790b",
+    "retrieved_at": "2026-11-21T08:14:22.623914+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0",
+    "claims": [
+      "网关 1.0.9 / eda ~3.2.0 / Run API Gateway"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-gateway-manifest.decoded.txt",
+    "upstream_blob_sha": "92324d02b814bb8b6f5b42e46579e1204c6bc2c5",
+    "upstream_html_url": "https://github.com/easyeda/eext-run-api-gateway/blob/main/extension.json",
+    "evidence": [
+      {
+        "locator": "extension.json",
+        "short_quote": "version: 1.0.9；engines.eda: ~3.2.0；license: Apache-2.0"
+      }
+    ]
+  },
+  {
+    "id": "eda-gateway-readme",
+    "title": "官方网关真实存在，说明扩展安装与自动连接流程",
+    "url": "https://api.github.com/repos/easyeda/eext-run-api-gateway/contents/README.md",
+    "local_path": "research/eda/snapshots/eda-gateway-readme.json",
+    "sha256": "29891daeb6a8dc36d393d2aa3b9014ab5578a3fc4ac8a8eb52f9b9f829eec9f0",
+    "retrieved_at": "2026-11-21T08:14:22.544498+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0（仓库声明）",
+    "claims": [
+      "官方网关真实存在，说明扩展安装与自动连接流程"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-gateway-readme.decoded.txt",
+    "upstream_blob_sha": "748b48037b982cd92dfcffe0fdda47cbe3282c7d",
+    "upstream_html_url": "https://github.com/easyeda/eext-run-api-gateway/blob/main/README.md",
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "官方网关真实存在，说明扩展安装与自动连接流程"
+      }
+    ]
+  },
+  {
+    "id": "eda-gateway-source",
+    "title": "网关真实协议实现，用于研究待调用边界",
+    "url": "https://api.github.com/repos/easyeda/eext-run-api-gateway/contents/src/index.ts",
+    "local_path": "research/eda/snapshots/eda-gateway-source.json",
+    "sha256": "e436279587a53b0368e7f76f9512a5cc20155118cbd8ee95f2c9176ddbd631f5",
+    "retrieved_at": "2026-11-21T08:14:23.026666+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0（仓库声明）",
+    "claims": [
+      "网关真实协议实现，用于研究待调用边界"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-gateway-source.decoded.txt",
+    "upstream_blob_sha": "1e12079b02d3273175f50ab4047acd918fe7bd7b",
+    "upstream_html_url": "https://github.com/easyeda/eext-run-api-gateway/blob/main/src/index.ts",
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "网关真实协议实现，用于研究待调用边界"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-auto-routing-api",
+    "title": "PCB_Document.autoRouting() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.autorouting.html",
+    "local_path": "research/eda/snapshots/eda-pro-auto-routing-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-auto-routing-api.txt",
+    "sha256": "a793d1833f731bfb7f80d1924ed40cc6146d8340d34910d319ee349b8b149fbe",
+    "retrieved_at": "2026-11-21T08:15:58.546081+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "原生自动布线方法及其返回值"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "备注",
+        "short_quote": "固定的 900 秒；停用层会被静默忽略"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-cli",
+    "title": "命令行客户端 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/guide/cli.html",
+    "local_path": "research/eda/snapshots/eda-pro-cli.html",
+    "text_path": "research/eda/snapshots/eda-pro-cli.txt",
+    "sha256": "bdcf0565164caeda523e82d9f96fb4fb655ad70655ea676bb271f445df183b8e",
+    "retrieved_at": "2026-11-21T08:21:21.440816+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "客户端 V4.1.60+ 内置 CLI 与 MCP，区别于网页版扩展桥接"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "获取客户端 / 返回值结构 / 坐标系与单位",
+        "short_quote": "版本 V4.1.60 及以上；PCB 单位为 mil"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-command-group-api",
+    "title": "PCB_Document.beginCommandGroup() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.begincommandgroup.html",
+    "local_path": "research/eda/snapshots/eda-pro-command-group-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-command-group-api.txt",
+    "sha256": "557b254937d64af6668dda3c38dbb004239b82dd3b487355ce1c588a4b9bb4bf",
+    "retrieved_at": "2026-11-21T08:15:58.358284+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "命令组的版本与回滚边界"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "命令组的版本与回滚边界"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-comparison-api",
+    "title": "SYS_Tool class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sys_tool.html",
+    "local_path": "research/eda/snapshots/eda-pro-comparison-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-comparison-api.txt",
+    "sha256": "f503ce933388646843e05fecefd414117aeca2a807203daa6a2390fe3ebaa28a",
+    "retrieved_at": "2026-11-21T08:11:12.125106+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "网表、PCB 和原理图对比"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "网表、PCB 和原理图对比"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-component-api",
+    "title": "PCB_PrimitiveComponent class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitivecomponent.html",
+    "local_path": "research/eda/snapshots/eda-pro-component-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-component-api.txt",
+    "sha256": "65e6514611b320d6018e5e3e5b4e5b61bd021b8f0bb99c46c0d158834c1d8d61",
+    "retrieved_at": "2026-11-21T08:11:11.787520+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "元件与其焊盘的图元查询及修改"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "元件与其焊盘的图元查询及修改"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-design-rule",
+    "title": "设计规则 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/pcb/design-design-rule/",
+    "local_path": "research/eda/snapshots/eda-pro-design-rule.html",
+    "text_path": "research/eda/snapshots/eda-pro-design-rule.txt",
+    "sha256": "be1630422d4a8c90a45e2a42d7592055daa2dff476bbb42a4fd8ac6cb156b8a0",
+    "retrieved_at": "2026-11-21T08:11:11.545276+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "PCB 规则配置与规则优先级"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "PCB 规则配置与规则优先级"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-document-api",
+    "title": "PCB_Document class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.html",
+    "local_path": "research/eda/snapshots/eda-pro-document-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-document-api.txt",
+    "sha256": "f1cd881ddca37f75be2d6ad9aadf4538fc02ee64b63e9bef73d2f3891bc71160",
+    "retrieved_at": "2026-11-21T08:15:58.282776+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "PCB_Document 包含自动布局布线、导入变更、飞线及命令组"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "PCB_Document 包含自动布局布线、导入变更、飞线及命令组"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-drc-api",
+    "title": "PCB_Drc class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_drc.html",
+    "local_path": "research/eda/snapshots/eda-pro-drc-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-drc-api.txt",
+    "sha256": "24a62b5ae4361bd89acfb8d3b814037bc6c853a6cd0fc67a9952cedaf3ee0dd4",
+    "retrieved_at": "2026-11-21T08:11:11.939311+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "规则组、差分对和 DRC API"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "规则组、差分对和 DRC API"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-drc-detailed",
+    "title": "PCB_Drc.checkDetailed() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_drc.checkdetailed.html",
+    "local_path": "research/eda/snapshots/eda-pro-drc-detailed.html",
+    "text_path": "research/eda/snapshots/eda-pro-drc-detailed.txt",
+    "sha256": "7c3af92244b8d49c3cd58f64a80a2266f7b74b56aed0cb8abf650fddf0634cb2",
+    "retrieved_at": "2026-11-21T08:11:12.089304+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "checkDetailed 的真实返回签名"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "签名与备注",
+        "short_quote": "Promise<IPCB_DrcResult>；ADD since EDA v4.1.93；INCOMPLETE_RESULT"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-drc-result",
+    "title": "IPCB_DrcResult interface | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.ipcb_drcresult.html",
+    "local_path": "research/eda/snapshots/eda-pro-drc-result.html",
+    "text_path": "research/eda/snapshots/eda-pro-drc-result.txt",
+    "sha256": "d7c204eec57ee7e227c4d5c8a389adea2020c1ca2e9d75a64e2d978816f06b83",
+    "retrieved_at": "2026-11-21T08:11:12.117594+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "DRC 返回状态、时间和明细"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "属性表",
+        "short_quote": "failedItems；state；totalCount；violations；checkedAt"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-format",
+    "title": "嘉立创EDA文件格式 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/format/index/",
+    "local_path": "research/eda/snapshots/eda-pro-format.html",
+    "text_path": "research/eda/snapshots/eda-pro-format.txt",
+    "sha256": "bc48b60f4aa245c67984ebaa8c7d97d4c04d73e6ec32e25e3ea6c1748747fb91",
+    "retrieved_at": "2026-11-21T08:11:11.652179+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "Pro 文件格式版本与最终一致性语义"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "Pro 文件格式版本与最终一致性语义"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-gerber",
+    "title": "导出PCB生产文件Gerber | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/pcb/export-pcb-fabrication-file-gerber/",
+    "local_path": "research/eda/snapshots/eda-pro-gerber.html",
+    "text_path": "research/eda/snapshots/eda-pro-gerber.txt",
+    "sha256": "570f105dbfe801610d0cb511d5c004874a8ce814076925f3d3ae2382d5fff3a7",
+    "retrieved_at": "2026-11-21T08:11:11.792524+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "制板 Gerber 导出与检查"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "制板 Gerber 导出与检查"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-import-changes",
+    "title": "从原理图导入变更 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/pcb/design-import-changes-from-schematic/",
+    "local_path": "research/eda/snapshots/eda-pro-import-changes.html",
+    "text_path": "research/eda/snapshots/eda-pro-import-changes.txt",
+    "sha256": "532e56b03eda3ec0360ff48168b0d8548fe70a61bb0b825155948a75fd1f3777",
+    "retrieved_at": "2026-11-21T08:11:11.505612+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "从原理图导入更改与匹配"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "注意",
+        "short_quote": "PCB导入变更后，有些变更你将无法撤销"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-import-changes-api",
+    "title": "PCB_Document.importChanges() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.importchanges.html",
+    "local_path": "research/eda/snapshots/eda-pro-import-changes-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-import-changes-api.txt",
+    "sha256": "9480272c734c0f5a7dcbc14c2624a75dcf22dfb34d5a027d74b62c719b4ca31d",
+    "retrieved_at": "2026-11-21T08:15:58.374287+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "从原理图导入变更的真实签名"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "签名与备注",
+        "short_quote": "importChanges(uuid?: string): Promise<boolean>；备注另提 force"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-invoke",
+    "title": "调用扩展 API | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/guide/invoke-apis.html",
+    "local_path": "research/eda/snapshots/eda-pro-invoke.html",
+    "text_path": "research/eda/snapshots/eda-pro-invoke.txt",
+    "sha256": "14ef41ad747145a3bc2e54bddd4c8009bc7ad45e534ef477d191db12e6ed08b3",
+    "retrieved_at": "2026-11-21T08:21:21.415966+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "eda 命名空间及扩展 API 的调用规则"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "eda 命名空间及扩展 API 的调用规则"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-layer-api",
+    "title": "PCB_Layer class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_layer.html",
+    "local_path": "research/eda/snapshots/eda-pro-layer-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-layer-api.txt",
+    "sha256": "33a860a6c575937724a0a5a5e9ef5b73f8057bb317d98b9bf1ecfa1c730054d8",
+    "retrieved_at": "2026-11-21T08:11:11.686179+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "层数、图层和物理叠层 API"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "层数、图层和物理叠层 API"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-layer-manager",
+    "title": "图层管理器 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/pcb/tools-layer-manager/",
+    "local_path": "research/eda/snapshots/eda-pro-layer-manager.html",
+    "text_path": "research/eda/snapshots/eda-pro-layer-manager.txt",
+    "sha256": "a8b68882d8806126acb7e20ab704c2778ea49a63bb430623d90a5a06c93db2a2",
+    "retrieved_at": "2026-11-21T08:11:11.459017+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "图层管理与内层配置"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "物理堆叠",
+        "short_quote": "目前该参数只做记录；该物理堆叠设置不影响导出Gerber"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-line-api",
+    "title": "PCB_PrimitiveLine class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitiveline.html",
+    "local_path": "research/eda/snapshots/eda-pro-line-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-line-api.txt",
+    "sha256": "bb896e948122b84135bdd724c3101108694f36b9be0842009630ebcfb80ad331",
+    "retrieved_at": "2026-11-21T08:11:11.840076+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "具备网络和层标识的导线图元"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "具备网络和层标识的导线图元"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-line-create",
+    "title": "PCB_PrimitiveLine.create() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitiveline.create.html",
+    "local_path": "research/eda/snapshots/eda-pro-line-create.html",
+    "text_path": "research/eda/snapshots/eda-pro-line-create.txt",
+    "sha256": "f259e06a25bef9d21406b2836260319510bb61e7df6b2e7aba57dd270f7a0208",
+    "retrieved_at": "2026-11-21T08:21:21.335800+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "导线创建详细签名、mil 示例及原生分割语义"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "导线创建详细签名、mil 示例及原生分割语义"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-manufacture-api",
+    "title": "PCB_ManufactureData class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_manufacturedata.html",
+    "local_path": "research/eda/snapshots/eda-pro-manufacture-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-manufacture-api.txt",
+    "sha256": "d81091fd5d22b5c78e74670afdef7fd9f20bfc0782de7c071776e03c29708ed9",
+    "retrieved_at": "2026-11-21T08:11:11.974140+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "Gerber、BOM、坐标及 DSN 导出"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "Gerber、BOM、坐标及 DSN 导出"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-net-api",
+    "title": "PCB_Net class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_net.html",
+    "local_path": "research/eda/snapshots/eda-pro-net-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-net-api.txt",
+    "sha256": "8d13b085170c5eddc42fa5dd4727b718d37f623eebab4c16e9317bf2ac4b1627",
+    "retrieved_at": "2026-11-21T08:11:11.733692+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "网络和 PCB 网表 API"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "网络和 PCB 网表 API"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-ratlines-api",
+    "title": "PCB_Document.getRatlines() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.getratlines.html",
+    "local_path": "research/eda/snapshots/eda-pro-ratlines-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-ratlines-api.txt",
+    "sha256": "f04c0f9a0e548ec19ee2227dd9e36737fec4d66845f6254c34d8ba3c50e0c657",
+    "retrieved_at": "2026-11-21T08:15:58.358284+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "分页读取未完成连接的飞线"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "分页读取未完成连接的飞线"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-sch-netlist-api",
+    "title": "SCH_Netlist class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sch_netlist.html",
+    "local_path": "research/eda/snapshots/eda-pro-sch-netlist-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-sch-netlist-api.txt",
+    "sha256": "fba1795c2233ae608ba130421dbbc9f775147a5316d80ca703d449b265c59dd4",
+    "retrieved_at": "2026-11-21T08:11:12.079304+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "原理图网表读取与修改"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "原理图网表读取与修改"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-schematic-to-pcb",
+    "title": "更新PCB/转换原理图到PCB | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/schematic/design-update-convert-schematic-to-pcb/",
+    "local_path": "research/eda/snapshots/eda-pro-schematic-to-pcb.html",
+    "text_path": "research/eda/snapshots/eda-pro-schematic-to-pcb.txt",
+    "sha256": "1f6adf766691624c98823fbf1a29a333e7f8fd125d19b8b803218fbcfa0c0e1c",
+    "retrieved_at": "2026-11-21T08:11:11.491108+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "原理图更新及转换 PCB 的原生操作"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "原理图更新及转换 PCB 的原生操作"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-source-pcb",
+    "title": "DMT_SourcePcb class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.dmt_sourcepcb.html",
+    "local_path": "research/eda/snapshots/eda-pro-source-pcb.html",
+    "text_path": "research/eda/snapshots/eda-pro-source-pcb.txt",
+    "sha256": "4b9c262c7e737c7ca3a04de5c8ac73e7dc5fa55c9061b0135f9bf3c3ac6ee807",
+    "retrieved_at": "2026-11-21T08:11:12.220343+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "源数据 PCB API 当前明确为 NOT_IMPLEMENTED"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "类备注",
+        "short_quote": "当前为占位实现；所有方法均返回 NOT_IMPLEMENTED"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-start",
+    "title": "如何开始 | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/guide/how-to-start.html",
+    "local_path": "research/eda/snapshots/eda-pro-start.html",
+    "text_path": "research/eda/snapshots/eda-pro-start.txt",
+    "sha256": "b1b7173d29c4720d83b70a9cfeba8c9beffbb30b4d0c22594497032e8ea78e44",
+    "retrieved_at": "2026-11-21T08:11:11.390943+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "扩展运行范围、SDK、导入位置与开发环境"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "扩展运行范围、SDK、导入位置与开发环境"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-start-auto-routing-api",
+    "title": "PCB_Document.startAutoRouting() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.startautorouting.html",
+    "local_path": "research/eda/snapshots/eda-pro-start-auto-routing-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-start-auto-routing-api.txt",
+    "sha256": "c4798347761740c7eba4e45e282371e01114d1f6ae185ebebc0ba1e54f806ede",
+    "retrieved_at": "2026-11-21T08:15:58.358284+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "自动布线作业模型及版本要求"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "备注",
+        "short_quote": "ADD since EDA v4.1.79"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-tool-api",
+    "title": "PCB_Tool class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_tool.html",
+    "local_path": "research/eda/snapshots/eda-pro-tool-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-tool-api.txt",
+    "sha256": "b4fd64e7b72b0555cef0f7331787e7fe98fa3671137842528f557f78d921c851",
+    "retrieved_at": "2026-11-21T08:11:12.329118+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "PCB_Tool 页面目前没有已公开方法列表"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "PCB_Tool 页面目前没有已公开方法列表"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-types",
+    "title": "pro-api-types | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/guide/ancillary-projects/pro-api-types.html",
+    "local_path": "research/eda/snapshots/eda-pro-types.html",
+    "text_path": "research/eda/snapshots/eda-pro-types.txt",
+    "sha256": "e04fb938d7e63884f2495a06faaf0edaa466e1518f0dd7605d3f414a07e102a8",
+    "retrieved_at": "2026-11-21T08:11:11.454020+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "官方 TypeScript 类型包与 Apache-2.0 许可"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "官方 TypeScript 类型包与 Apache-2.0 许可"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-ui-drc",
+    "title": "检查DRC | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/pcb/design-check-drc/",
+    "local_path": "research/eda/snapshots/eda-pro-ui-drc.html",
+    "text_path": "research/eda/snapshots/eda-pro-ui-drc.txt",
+    "sha256": "d72cdf9cfab8b5118dd82e724f59e8a9cb954d3053a3ee3396497b547c622be1",
+    "retrieved_at": "2026-11-21T08:11:11.705981+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "原生 DRC 检查流程"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "原生 DRC 检查流程"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-via-api",
+    "title": "PCB_PrimitiveVia class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitivevia.html",
+    "local_path": "research/eda/snapshots/eda-pro-via-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-via-api.txt",
+    "sha256": "7ef4b3b6b467fcf17bea0a5da91a98f98cfdfd2c6feb3e2ec3ead106723e10bf",
+    "retrieved_at": "2026-11-21T08:11:11.907640+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "具备网络、孔径、盘径和类型的过孔"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "具备网络、孔径、盘径和类型的过孔"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-via-create",
+    "title": "PCB_PrimitiveVia.create() method | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitivevia.create.html",
+    "local_path": "research/eda/snapshots/eda-pro-via-create.html",
+    "text_path": "research/eda/snapshots/eda-pro-via-create.txt",
+    "sha256": "4c9964efe08581da252e3fc00be91dbf1b0df792bf51b3ae913c8eafdcab1a2c",
+    "retrieved_at": "2026-11-21T08:21:21.359976+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "过孔创建详细签名及 mil 尺寸示例"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "过孔创建详细签名及 mil 尺寸示例"
+      }
+    ]
+  },
+  {
+    "id": "eda-pro-websocket-api",
+    "title": "SYS_WebSocket class | 嘉立创EDA专业版用户指南",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sys_websocket.html",
+    "local_path": "research/eda/snapshots/eda-pro-websocket-api.html",
+    "text_path": "research/eda/snapshots/eda-pro-websocket-api.txt",
+    "sha256": "1171e0b3776c522dd64c9a879d89c0f965e81268d11a4c38a8834713c6bb0d1e",
+    "retrieved_at": "2026-11-21T08:11:12.177208+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "扩展通过 WebSocket 与外部服务交互"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "扩展通过 WebSocket 与外部服务交互"
+      }
+    ]
+  },
+  {
+    "id": "eda-sdk-license",
+    "title": "SDK 授权原文",
+    "url": "https://api.github.com/repos/easyeda/easyeda-api-sdk/contents/LICENSE",
+    "local_path": "research/eda/snapshots/eda-sdk-license.json",
+    "sha256": "1bb9dc816566895925b1300985def346963a91e992e21581aa97ee1b2c289a56",
+    "retrieved_at": "2026-11-21T08:14:22.813097+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0",
+    "claims": [
+      "SDK 授权原文"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-sdk-license.decoded.txt",
+    "upstream_blob_sha": "b5ef8ed563f58769751a72a40e2e292f04852d4b",
+    "upstream_html_url": "https://github.com/easyeda/easyeda-api-sdk/blob/master/LICENSE",
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "SDK 授权原文"
+      }
+    ]
+  },
+  {
+    "id": "eda-sdk-package",
+    "title": "SDK package 1.6.31 / Node >=20.17.0 / Apache-2.0 / types ^0.4.29",
+    "url": "https://api.github.com/repos/easyeda/easyeda-api-sdk/contents/package.json",
+    "local_path": "research/eda/snapshots/eda-sdk-package.json",
+    "sha256": "319959f1855407fd3cca017bde4cd261f6bd9932c75e3a0ba5a2e9ddc79ed635",
+    "retrieved_at": "2026-11-21T08:14:22.838230+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0",
+    "claims": [
+      "SDK package 1.6.31 / Node >=20.17.0 / Apache-2.0 / types ^0.4.29"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "text_path": "research/eda/snapshots/eda-sdk-package.decoded.txt",
+    "upstream_blob_sha": "4b0e3065febddf56b49b0bf3567da15c7f5349c5",
+    "upstream_html_url": "https://github.com/easyeda/easyeda-api-sdk/blob/master/package.json",
+    "evidence": [
+      {
+        "locator": "package.json",
+        "short_quote": "version: 1.6.31；engines.node: >=20.17.0"
+      }
+    ]
+  },
+  {
+    "id": "eda-std-api",
+    "title": "如何使用API | 嘉立创EDA标准版用户指南",
+    "url": "https://docs.lceda.cn/cn/API/1-How-to-Use-API/",
+    "local_path": "research/eda/snapshots/eda-std-api.html",
+    "text_path": "research/eda/snapshots/eda-std-api.txt",
+    "sha256": "f4298796ba01f31bccee67b6cd76fda18b4118160ec7b247452f8f0ab5e1a881",
+    "retrieved_at": "2026-11-21T08:11:12.437642+00:00",
+    "authority": "嘉立创 EDA 官方文档（产品行为与 API 的一手资料）",
+    "license_or_terms": "公开访问不等于开放许可；文档版权归原作者，仅作本项目研究证据，未据此授予再分发许可。",
+    "claims": [
+      "标准版 API 入口，与 Pro 并非同一 API"
+    ],
+    "limitations": [
+      "已读取官方网页，未在用户安装的 EDA 中运行验证；BETA 接口应以运行时能力探测和当前类型版本为准。"
+    ],
+    "evidence": [
+      {
+        "locator": "正文或方法表，完整文本见 text_path（如有）",
+        "paraphrase": "标准版 API 入口，与 Pro 并非同一 API"
+      }
+    ]
+  },
+  {
+    "id": "eda-types-npm",
+    "title": "npm latest 类型包版本0.4.30及完整性元数据",
+    "url": "https://registry.npmjs.org/@jlceda/pro-api-types/latest",
+    "local_path": "research/eda/snapshots/eda-types-npm.json",
+    "sha256": "db4b17e3ef5cb94fe7be2a56db2f7709ffc5048f1aa7e5345f4d2ac1eb93fe3c",
+    "retrieved_at": "2026-11-21T08:14:23.833023+00:00",
+    "authority": "官方 easyeda GitHub 仓库 / 官方文档 / npm 官方命名空间公开数据",
+    "license_or_terms": "Apache-2.0（package license 声明）",
+    "claims": [
+      "npm latest 类型包版本0.4.30及完整性元数据"
+    ],
+    "limitations": [
+      "已核实公开文本和版本声明；未安装官方网关、未运行桥接、未验证用户客户端兼容。"
+    ],
+    "evidence": [
+      {
+        "locator": "version 与 license",
+        "short_quote": "0.4.30；Apache-2.0"
+      }
+    ]
+  },
+  {
+    "id": "eda-types-package",
+    "title": "官方 @jlceda/pro-api-types 0.4.30 npm 发布包",
+    "url": "https://registry.npmjs.org/@jlceda/pro-api-types/-/pro-api-types-0.4.30.tgz",
+    "local_path": "research/eda/snapshots/eda-types-package-0.4.30.tgz",
+    "sha256": "28f9b903ed9e1a10c096ff6e4ca0be524f916708b15c2dbb22f6a605fcb0ce3e",
+    "retrieved_at": "2026-11-21T08:16:32.505724+00:00",
+    "authority": "官方 @jlceda npm 命名空间的版本固定包",
+    "license_or_terms": "Apache-2.0（npm package license 声明；快照仅本地研究）",
+    "claims": [
+      "固定类型包核验 importChanges 的 force 参数、自动布线与 DRC 签名"
+    ],
+    "limitations": [
+      "类型声明不等于运行时已实现或用户版本包含；未安装该包，也未调用 EDA。"
+    ],
+    "evidence": [
+      {
+        "locator": "package/index.d.ts",
+        "short_quote": "public importChanges(uuid?: string): Promise<boolean>"
+      }
+    ]
+  },
+  {
+    "id": "eda-component-modify",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_primitivecomponent.modify.html",
+    "local_path": "research/eda/snapshots/eda-component-modify-20261121.html",
+    "text_path": "research/eda/snapshots/eda-component-modify-20261121.txt",
+    "sha256": "2499ca2a45c19c7bf00989e6c3201e95a39961d8a9142e398cf373a759629821",
+    "retrieved_at": "2026-11-21T13:46:43.759013+00:00",
+    "title": "嘉立创 EDA 修改元件与重新读取验证",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "元件位置修改返回对象不等于当前画布状态；必须重新get并核对物理焊盘。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "modify 示例步骤4",
+        "short_quote": "modify 返回后需要重新 get()"
+      }
+    ]
+  },
+  {
+    "id": "eda-group-commit",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.commitcommandgroup.html",
+    "local_path": "research/eda/snapshots/eda-group-commit-20261121.html",
+    "text_path": "research/eda/snapshots/eda-group-commit-20261121.txt",
+    "sha256": "e42908ff27bc8137571d333d6f449e9a660a6e79830859509bfa0e6542b81891",
+    "retrieved_at": "2026-11-21T13:46:44.165355+00:00",
+    "title": "嘉立创 EDA 提交命令组",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "组提交返回boolean；提交后形成一个撤销单元，不表示完成设计验收。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "签名/备注",
+        "short_quote": "commitCommandGroup"
+      }
+    ]
+  },
+  {
+    "id": "eda-group-rollback",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_document.rollbackcommandgroup.html",
+    "local_path": "research/eda/snapshots/eda-group-rollback-20261121.html",
+    "text_path": "research/eda/snapshots/eda-group-rollback-20261121.txt",
+    "sha256": "d2b11561887d2531e77a3983ed73c8ccba03b72f701825d170415c1b5a1fa045",
+    "retrieved_at": "2026-11-21T13:46:44.514738+00:00",
+    "title": "嘉立创 EDA 回滚未提交命令组",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "仅回滚未提交的组；还需读取结果，不能从请求成功推断已经恢复。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "备注",
+        "short_quote": "按逆序撤销组内已执行的写操作"
+      }
+    ]
+  },
+  {
+    "id": "eda-document-source",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sys_filemanager.getdocumentsource.html",
+    "local_path": "research/eda/snapshots/eda-document-source-20261121.html",
+    "text_path": "research/eda/snapshots/eda-document-source-20261121.txt",
+    "sha256": "f1acb4743544ce7732acd56ae3590ae5b3ff26e29e0a94cbd1a55d3ac732eecc",
+    "retrieved_at": "2026-11-21T13:46:44.808752+00:00",
+    "title": "嘉立创 EDA 读取当前文档源码",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "可读取source建立快照摘要；undefined必须拒绝。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "返回值",
+        "short_quote": "undefined 表示当前未打开文档或数据获取失败"
+      }
+    ]
+  },
+  {
+    "id": "eda-project-import",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.sys_filemanager.importprojectbyprojectfile.html",
+    "local_path": "research/eda/snapshots/eda-project-import-20261121.html",
+    "text_path": "research/eda/snapshots/eda-project-import-20261121.txt",
+    "sha256": "8c934eeda435b1095e0c6a614a804085885a84e3921aebffb961606abee2f573",
+    "retrieved_at": "2026-11-21T13:46:45.145685+00:00",
+    "title": "嘉立创 EDA 本地工程导入与格式边界",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "epro2归档需导入；离线路径模式仅离线可用，同名项目不覆盖。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "saveTo 参数说明",
+        "short_quote": "Offline Client Local Path 仅离线客户端可用"
+      }
+    ]
+  },
+  {
+    "id": "eda-netlist-export",
+    "url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_manufacturedata.getnetlistfile.html",
+    "local_path": "research/eda/snapshots/eda-netlist-export-20261121.html",
+    "text_path": "research/eda/snapshots/eda-netlist-export-20261121.txt",
+    "sha256": "9630f9e4eab8c3b0586a1de0200024b71105df6864fa1c0c2acd1e85f78aefa9",
+    "retrieved_at": "2026-11-21T13:46:45.524948+00:00",
+    "title": "嘉立创 EDA PCB原生网表导出",
+    "authority": "嘉立创 EDA 官方 API 文档",
+    "license_or_terms": "公开文档版权归原作者；全文仅本地研究，公开保留链接、短引文与原创总结。",
+    "claims": [
+      "getNetlistFile可返回undefined；取得文件不证明与原理图网络一致。"
+    ],
+    "limitations": [
+      "BETA接口；本轮固定动作经模拟测试，尚未在用户PCB副本完成原生写入/重开验证。"
+    ],
+    "evidence": [
+      {
+        "locator": "签名/返回值",
+        "short_quote": "网表文件数据"
+      }
+    ]
+  }
+]

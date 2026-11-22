@@ -1,0 +1,8 @@
+{
+  "status": "started",
+  "project_slug": "rp2040-minimal",
+  "source_path": "local/board-challenges/sources/rp2040-minimal/rp2040-minimal.zip",
+  "source_sha256": "8fdae5c1d3d8e58f43a45cd604ce9836b1ad4649f11eca4a9bea97eec6c2093a",
+  "file_type": "KiCad",
+  "local_only": true
+}

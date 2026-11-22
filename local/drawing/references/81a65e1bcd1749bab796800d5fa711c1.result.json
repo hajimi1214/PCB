@@ -1,0 +1,10 @@
+{
+  "status": "recovery_required",
+  "project_slug": "hackrf-one-four-layer",
+  "source_path": "local/board-challenges/sources/hackrf-one.zip",
+  "error_type": "DrawingError",
+  "reason": "EDA reference import failed: EDA did not confirm the new reference project",
+  "destination": "new_user_project",
+  "source_project_may_exist": false,
+  "files_present": []
+}

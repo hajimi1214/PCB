@@ -1,0 +1,4 @@
+# The repo-local PCB plugin runs its bounded MCP server only after this project is trusted.
+# Refresh Codex after changing plugin files; no user-global settings are changed.
+[plugins."pcb@local-pcb"]
+enabled = true

@@ -1,0 +1,540 @@
+[
+  {
+    "id": "rules-jlc-capabilities",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "bytes": 140266,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "c202f6dec766bb6f889e22f42d0cecda0a4920a5157405f6a8f3c0c0d70d6a0c",
+    "local_path": "research/rules/snapshots/jlc-capabilities.html",
+    "retrieved_at": "2026-11-21T08:09:03.048961+00:00",
+    "title": "PCB Manufacturing Capabilities - JLCPCB",
+    "authority": "JLCPCB 官方制造能力页",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "Circuit / Min. track width and spacing (1 oz): Multilayer: 0.09 / 0.09 mm (3.5 / 3.5 mil). 3 mil is acceptable in BGA fan-outs.",
+      "Circuit / PTH annular ring: Multilayer: 1 oz: Recommended 0.20 mm or above; absolute minimum 0.15 mm",
+      "Drilling / Min. Via hole size/diameter: Preferred Min. Via hole size: 0.2mm",
+      "Circuit / Track width tolerance: Track width tolerance ±20%"
+    ],
+    "evidence": [
+      {
+        "locator": "Circuit / Min. track width and spacing (1 oz)",
+        "quote": "Multilayer: 0.09 / 0.09 mm (3.5 / 3.5 mil). 3 mil is acceptable in BGA fan-outs."
+      },
+      {
+        "locator": "Circuit / PTH annular ring",
+        "quote": "Multilayer: 1 oz: Recommended 0.20 mm or above; absolute minimum 0.15 mm"
+      },
+      {
+        "locator": "Drilling / Min. Via hole size/diameter",
+        "quote": "Preferred Min. Via hole size: 0.2mm"
+      },
+      {
+        "locator": "Circuit / Track width tolerance",
+        "quote": "Track width tolerance ±20%"
+      }
+    ],
+    "limitations": [
+      "能力随层数、铜厚、板厚、工艺选项变化，订板时必须重新确认。",
+      "PTH 插件孔焊环要求不能无差别替代过孔直径规则；页面表格与描述必须一起读。",
+      "能力最小值只是可制造边界，不作为推荐布线宽度/电流承载值。"
+    ],
+    "text_path": "research/rules/snapshots/jlc-capabilities.txt"
+  },
+  {
+    "id": "rules-jlc-impedance",
+    "url": "https://jlcpcb.com/impedance",
+    "final_url": "https://jlcpcb.com/impedance",
+    "bytes": 336767,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "342cf8e98d411aee0e41f3e7abdd1a59561ab8aa3d3059683e5a9fd86b0efdda",
+    "local_path": "research/rules/snapshots/jlc-impedance.html",
+    "retrieved_at": "2026-11-21T08:07:31.698553+00:00",
+    "title": "Controlled Impedance PCB Layer Stackup - JLCPCB",
+    "authority": "JLCPCB 官方叠层和阻抗计算入口",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "Controlled Impedance PCB Parameters and Stackup: according to JLCPCB’s laminated structure and related parameters",
+      "4-Layer Impedance Control Stackup / JLC04161H-3313: Prepreg 3313*1 0.09940mm",
+      "4-Layer Impedance Control Stackup: JLC04161H-1080 Stackup",
+      "6-Layer Impedance Control Stackup: JLC06161H-3313 Stackup"
+    ],
+    "evidence": [
+      {
+        "locator": "Controlled Impedance PCB Parameters and Stackup",
+        "quote": "according to JLCPCB’s laminated structure and related parameters"
+      },
+      {
+        "locator": "4-Layer Impedance Control Stackup / JLC04161H-3313",
+        "quote": "Prepreg 3313*1 0.09940mm"
+      },
+      {
+        "locator": "4-Layer Impedance Control Stackup",
+        "quote": "JLC04161H-1080 Stackup"
+      },
+      {
+        "locator": "6-Layer Impedance Control Stackup",
+        "quote": "JLC06161H-3313 Stackup"
+      }
+    ],
+    "limitations": [
+      "页面列出多种叠层，抓取时网页默认状态不是用户选定订单。",
+      "厚度、铜厚、介电常数、阻焊参数会影响阻抗；不能把某一线宽通用于所有 1.6 mm 四层板。",
+      "这里只核验材料/几何输入来源，尚未执行阻抗计算或生产确认。"
+    ],
+    "text_path": "research/rules/snapshots/jlc-impedance.txt"
+  },
+  {
+    "id": "rules-jlc-assembly",
+    "url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "bytes": 112578,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "96a3ca33d0460dbc2564a87c5da02c8e6b9593b8d2ecae1b44f92a3cf8e1d9ca",
+    "local_path": "research/rules/snapshots/jlc-assembly.html",
+    "retrieved_at": "2026-11-21T08:07:32.089075+00:00",
+    "title": "PCB Manufacturing & Assembly Capabilities - JLCPCB",
+    "authority": "JLCPCB 官方装配能力页",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "PCB Assembly Technical Capabilities / PCB Layer: 2,4,6-layers",
+      "PCB Assembly Technical Capabilities / Fiducials: Fiducials",
+      "FAQ / BOM and CPL: please include both part A and part B in the BOM and CPL"
+    ],
+    "evidence": [
+      {
+        "locator": "PCB Assembly Technical Capabilities / PCB Layer",
+        "quote": "2,4,6-layers"
+      },
+      {
+        "locator": "PCB Assembly Technical Capabilities / Fiducials",
+        "quote": "Fiducials"
+      },
+      {
+        "locator": "FAQ / BOM and CPL",
+        "quote": "please include both part A and part B in the BOM and CPL"
+      }
+    ],
+    "limitations": [
+      "Economic 与 Standard PCBA 是不同服务列，封装、单双面、板框、工艺边等要求不能混用。",
+      "BOM/CPL 还需实际校验参考编号、器件面、角度与库封装方向。",
+      "本文没有给出具体用户板子的贴装可行性结论。"
+    ],
+    "text_path": "research/rules/snapshots/jlc-assembly.txt"
+  },
+  {
+    "id": "rules-adi-ground",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/staying-well-grounded.html",
+    "final_url": "https://www.analog.com/en/resources/analog-dialogue/articles/staying-well-grounded.html",
+    "bytes": 80157,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "87049bfcf9a52616b51f4aebbe3be731ad9e30a0d65a72f993b28da2063989e6",
+    "local_path": "research/rules/snapshots/adi-ground.html",
+    "retrieved_at": "2026-11-21T08:07:28.904944+00:00",
+    "title": "Staying Well Grounded (Hank Zumbahlen, Analog Dialogue, June 2012)",
+    "authority": "Analog Devices 官方工程文章",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "Introduction: there is no “cookbook” approach that will guarantee good results",
+      "Ground planes and digital current return: In practice, the current returns must consist of large area ground planes to obtain low impedance to high-frequency currents.",
+      "Decoupling recommendations: Power supply pins should be decoupled directly to the ground plane using low-inductance, ceramic surface-mount capacitors."
+    ],
+    "evidence": [
+      {
+        "locator": "Introduction",
+        "quote": "there is no “cookbook” approach that will guarantee good results"
+      },
+      {
+        "locator": "Ground planes and digital current return",
+        "quote": "In practice, the current returns must consist of large area ground planes to obtain low impedance to high-frequency currents."
+      },
+      {
+        "locator": "Decoupling recommendations",
+        "quote": "Power supply pins should be decoupled directly to the ground plane using low-inductance, ceramic surface-mount capacitors."
+      }
+    ],
+    "limitations": [
+      "不同数字电流规模、ADC 架构与系统地结构有条件差异，不可仅按 AGND/DGND 网络名切平面。",
+      "作者讨论星形地、分区和完整平面，需结合原理图与器件资料评估。"
+    ],
+    "text_path": "research/rules/snapshots/adi-ground.txt"
+  },
+  {
+    "id": "rules-adi-ground-bounce",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/reducing-ground-bounce-in-dc-to-dc-converters.html",
+    "final_url": "https://www.analog.com/en/resources/analog-dialogue/articles/reducing-ground-bounce-in-dc-to-dc-converters.html",
+    "bytes": 66186,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "f341ebed1f16bdb2cc0efebc2a021e365f481688d6e5449ce05cceede2d4a310",
+    "local_path": "research/rules/snapshots/adi-ground-bounce.html",
+    "retrieved_at": "2026-11-21T08:09:01.595124+00:00",
+    "title": "Reducing Ground Bounce in DC-to-DC Converters—Some Grounding Essentials (Jeff Barrow, June 2007)",
+    "authority": "Analog Devices 官方工程文章",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "Figure 16 / Ground plane interruption: interruptions to the ground plane under conductors carrying current can increase loop area by diverting the return current",
+      "Figure 16: Return current takes the path of least impedance.",
+      "Figure 17: Component orientation does matter"
+    ],
+    "evidence": [
+      {
+        "locator": "Figure 16 / Ground plane interruption",
+        "quote": "interruptions to the ground plane under conductors carrying current can increase loop area by diverting the return current"
+      },
+      {
+        "locator": "Figure 16",
+        "quote": "Return current takes the path of least impedance."
+      },
+      {
+        "locator": "Figure 17",
+        "quote": "Component orientation does matter"
+      }
+    ],
+    "limitations": [
+      "电源布局还需具体稳压器数据手册和评估板，本文不能提供任意器件的 SW 铜面积/热设计参数。",
+      "文章提供机理，不等于本项目已经做过 EMI 实测。"
+    ],
+    "text_path": "research/rules/snapshots/adi-ground-bounce.txt"
+  },
+  {
+    "id": "rules-adi-mt101",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-101.pdf",
+    "final_url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-101.pdf",
+    "bytes": 976961,
+    "content_type": "application/pdf",
+    "sha256": "d7d7ab776638cd79a2934521adc37df1a9229e2538ee45255df32635d6a9d507",
+    "local_path": "research/rules/snapshots/adi-mt101.pdf",
+    "retrieved_at": "2026-11-21T08:08:59.846101+00:00",
+    "title": "MT-101: Decoupling Techniques (Rev. 0, March 2009)",
+    "authority": "Analog Devices 官方培训教程",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "PDF p. 6 / Localized high frequency decoupling recommendations: the high frequency decoupling capacitor must be as close to the chip as possible",
+      "PDF p. 7 / Resonant circuits formed by LC decoupling networks: The overall impedance of the decoupling network may exhibit peaking at the resonant frequency.",
+      "PDF p. 7 / Figure 6 discussion: extra inductance and resistance in the PCB trace"
+    ],
+    "evidence": [
+      {
+        "locator": "PDF p. 6 / Localized high frequency decoupling recommendations",
+        "quote": "the high frequency decoupling capacitor must be as close to the chip as possible"
+      },
+      {
+        "locator": "PDF p. 7 / Resonant circuits formed by LC decoupling networks",
+        "quote": "The overall impedance of the decoupling network may exhibit peaking at the resonant frequency."
+      },
+      {
+        "locator": "PDF p. 7 / Figure 6 discussion",
+        "quote": "extra inductance and resistance in the PCB trace"
+      }
+    ],
+    "limitations": [
+      "频段、MLCC 有效电容、器件选型和去耦数量按目标芯片/实际器件模型复核。",
+      "旧教程举例值不作为现代 MCU 或 PDN 的一刀切配置。",
+      "本次只提取文本，不据图中距离/比例导出几何规则。"
+    ],
+    "text_path": "research/rules/snapshots/adi-mt101.txt"
+  },
+  {
+    "id": "rules-adi-mt031",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-031.pdf",
+    "final_url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-031.pdf",
+    "bytes": 148151,
+    "sha256": "9dd21b95f00a6d3b31648774e0fef4f456644dcf4a5f4bceccf821d4730f4128",
+    "local_path": "research/rules/snapshots/adi-mt031.pdf",
+    "retrieved_at": "2026-11-21T08:09:46.110930+00:00",
+    "title": "MT-031: Grounding Data Converters and Solving the Mystery of AGND and DGND (Rev. A, October 2008)",
+    "authority": "Analog Devices 官方培训教程",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "PDF p. 2 / Ground and power planes: The importance of maintaining a low impedance large area ground plane is critical",
+      "PDF p. 8 / Meaning of DGND: The name \"DGND\" on an IC tells us that this pin connects to the digital ground of the IC.",
+      "PDF p. 12 / Evaluation board grounding limitations: it is not usually optimum for multicard mixed-signal systems"
+    ],
+    "evidence": [
+      {
+        "locator": "PDF p. 2 / Ground and power planes",
+        "quote": "The importance of maintaining a low impedance large area ground plane is critical"
+      },
+      {
+        "locator": "PDF p. 8 / Meaning of DGND",
+        "quote": "The name \"DGND\" on an IC tells us that this pin connects to the digital ground of the IC."
+      },
+      {
+        "locator": "PDF p. 12 / Evaluation board grounding limitations",
+        "quote": "it is not usually optimum for multicard mixed-signal systems"
+      }
+    ],
+    "limitations": [
+      "教程明确分低数字电流、高数字电流、单板及多板情况；不可仅截取评估板星形连接图。",
+      "目标 MCU ADC/参考电源以具体数据手册要求为先。"
+    ],
+    "text_path": "research/rules/snapshots/adi-mt031.txt"
+  },
+  {
+    "id": "rules-ti-cn-highspeed",
+    "url": "https://www.ti.com.cn/cn/lit/an/scaa082a/scaa082a.pdf",
+    "final_url": "https://www.ti.com.cn/cn/lit/an/scaa082a/scaa082a.pdf",
+    "bytes": 780522,
+    "sha256": "24681796ac36e50f9c6ef5e0b98945b6236ddb9fa620da97597ba62a85990206",
+    "local_path": "research/rules/snapshots/ti-cn-highspeed.pdf",
+    "retrieved_at": "2026-11-21T08:09:46.474022+00:00",
+    "title": "SCAA082A: High-Speed Layout Guidelines (revised August 2017)",
+    "authority": "Texas Instruments 官方中国域名应用报告",
+    "license_or_terms": "原发布者保留版权；未确认允许再分发全文。完整快照与提取文本仅本地研究，公共仓库只发布 URL、哈希、短证据和原创综合。",
+    "claims": [
+      "PDF p. 9 / Return current and loop areas: The best solution is to avoid any slots in the ground reference plane.",
+      "PDF pp. 9–10 / Section 2.2 Board Stackup: There is no fundamental information about how many layers should be used and how the board stackup should look.",
+      "PDF p. 12 / Section 2.3: If possible, use a continuous ground plane; do not split them.",
+      "PDF p. 15 / Figure 14 discussion: add some ground vias around the signal via",
+      "PDF p. 17 / Tips for routing traces and use of vias: To minimize crosstalk, the distance between two traces should be approximately 2 to 3 times the width of the trace."
+    ],
+    "evidence": [
+      {
+        "locator": "PDF p. 9 / Return current and loop areas",
+        "quote": "The best solution is to avoid any slots in the ground reference plane."
+      },
+      {
+        "locator": "PDF pp. 9–10 / Section 2.2 Board Stackup",
+        "quote": "There is no fundamental information about how many layers should be used and how the board stackup should look."
+      },
+      {
+        "locator": "PDF p. 12 / Section 2.3",
+        "quote": "If possible, use a continuous ground plane; do not split them."
+      },
+      {
+        "locator": "PDF p. 15 / Figure 14 discussion",
+        "quote": "add some ground vias around the signal via"
+      },
+      {
+        "locator": "PDF p. 17 / Tips for routing traces and use of vias",
+        "quote": "To minimize crosstalk, the distance between two traces should be approximately 2 to 3 times the width of the trace."
+      }
+    ],
+    "limitations": [
+      "文档 2006/2017 的四层表格、2W/3W 规则是特定上下文经验，不是现代总线 SI 仿真的替代。",
+      "差分等长依据协议时序/偏斜预算，不能无限蛇形；差分对仍须参考结构及回流连续。",
+      "仅提取了文本证据，没有把图形尺寸当成经验证的规则。"
+    ],
+    "text_path": "research/rules/snapshots/ti-cn-highspeed.txt"
+  },
+  {
+    "id": "rules-st-an4879",
+    "url": "https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf",
+    "final_url": "https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf",
+    "local_path": "research/rules/snapshots/rules-st-an4879-2026-11-21.pdf",
+    "text_path": "research/rules/snapshots/rules-st-an4879-2026-11-21.txt",
+    "sha256": "a5fd13b823bcc1d60c118f5320aef16bc332fccdd9b8bc3f898c6096d2251959",
+    "retrieved_at": "2026-11-21T11:54:33.760962+00:00",
+    "bytes": 1218605,
+    "pages": 30,
+    "title": "AN4879: Introduction to USB hardware and PCB guidelines using STM32 MCUs (Rev 13, October 2026)",
+    "authority": "STMicroelectronics 官方原始应用笔记；适用于文档表列 STM32 型号/包封与USB外设类型，需核对准确器件datasheet/reference manual。",
+    "claims": [
+      "pp.8–10 §2.3：器件 HBM 耐受与 IEC 61000-4-2 系统保护分别取证；专用 ESD 组件尽可能靠近插座，不能由元件额定推断整机通过。",
+      "p.11 §2.5：专用 VDDUSB 是否存在取决于准确型号和封装；在其适用情境中核对 100 nF 陶瓷加 1 μF 钽/陶瓷去耦，以及独立供电时的顺序。",
+      "pp.11–12 §2.6：VBUS sensing 区分自供电与总线供电；MCU 掉电时的输入应力必须按具体引脚额定与逻辑阈值核验。",
+      "pp.14–18 §3：ESD 靠近接口；host/downstream VBUS 开关及过流保护不同于 device-only 端口，不能统一套电路。",
+      "p.22 FAQ：此处 STM32 内部 USB PHY 已有匹配输出阻抗；外部串阻和上拉按准确实现选择，驱动输出阻抗不等于 PCB 差分阻抗。",
+      "p.25 修订表：Rev 3 在 2018 年删除旧 PCB 走线阻抗/布线章节；当前指南不能为通用复制的走线数值背书。"
+    ],
+    "limitations": [
+      "未在任何目标板上运行USB compliance、ESD、SI、clock/供电时序或DRC测试；没有单一线宽/间距/最大走线长度结论。",
+      "文档只覆盖其列出的STM32/PHY/功能。VDDUSB/HS regulator/embedded pull-up/serial resistor/VBUS pin规则不能推广到其他MCU。",
+      "p.10 crystal-less/internal oscillator条件与p.22 HSI cannot be used FAQ的泛化说法需结合具体型号、HSI48/CRS与reference manual解释；不能生成所有STM32必须外晶振的硬规则。",
+      "p.17的4.7µF上限在OTG具体情境；不推广到所有VBUS bulk caps。p.17/22的driver output impedance不是PCB受控差分阻抗。",
+      "仅文字读取未渲染；电路图连接、引脚方向与封装图形不由本轮文字提取验证。全文只本地研究，未核实开放再分发许可。"
+    ],
+    "evidence": [
+      {
+        "pdf_page": 10,
+        "locator": "§2.3 Protection against ESD and EMI, beforeTables11/12",
+        "quote": "dedicated components have to be placed as close as possible to the receptacle",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 11,
+        "locator": "§2.5 Power",
+        "quote": "it must be the last supply to be provided and the first to be removed.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 11,
+        "locator": "§2.5 Power dedicated VDDUSB bullet",
+        "quote": "two external decoupling capacitors (100 nF ceramic + 1 μF tantalum or ceramic)",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 11,
+        "locator": "§2.6 VBUS sensing detection",
+        "quote": "The device is self-powered. VBUS sensing is mandatory.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 11,
+        "locator": "§2.6 PA9 absolute maximum discussion",
+        "quote": "The user must avoid the situation when the MCU is not powered, and a 5 V VBUS is connected to PA9",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 16,
+        "locator": "§3.2 USB FS downstream port",
+        "quote": "via a switch with overcurrent protection",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 22,
+        "locator": "§4 FAQ internal matching resistors",
+        "quote": "No external resistors are needed.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 22,
+        "locator": "§4 FAQ minimum USB voltage",
+        "quote": "the USB is operational, but the customer cannot get the USB certification.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 25,
+        "locator": "Table15 revision3 27-Apr-2018",
+        "quote": "Section 1.1: PCB track impedance and routing on FS data lines",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      }
+    ],
+    "license_or_terms": "官方公开应用笔记/教程；原权利人保留版权，未确认全文再分发许可。完整PDF/文本仅本地证据，发布时只给URL、hash、短摘录和原创总结。",
+    "evidence_pages_path": "research/rules/snapshots/rules-st-an4879-2026-11-21-evidence-pages.json"
+  },
+  {
+    "id": "rules-adi-mt094",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-094.pdf",
+    "final_url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-094.pdf",
+    "local_path": "research/rules/snapshots/rules-adi-mt094-2026-11-21.pdf",
+    "text_path": "research/rules/snapshots/rules-adi-mt094-2026-11-21.txt",
+    "sha256": "bc91bcd6abb465122cb3c68d1051385697c998b025128cd57f119660bae6b646",
+    "retrieved_at": "2026-11-21T11:55:52.286647+00:00",
+    "bytes": 99331,
+    "pages": 7,
+    "title": "MT-094: Microstrip and Stripline Design (Rev.0, January 2009)",
+    "authority": "Analog Devices 官方原始教程，Walt Kester署名元数据；传输线几何/近似与设计取舍，不是目标板或板厂确认的数值规则。",
+    "claims": [
+      "p.1：传输线审查由实际最快上升/下降沿和单程传播延时判断，不能只看名义时钟频率。",
+      "p.2：参考面可为地或电源，但模型要求大面积、低阻抗且处于交流零电位，层名不能证明实际回流充分。",
+      "pp.2–4：基于 IPC 的闭式阻抗公式是受几何/目标阻抗影响的近似，仍需进一步分析、测试和验证。",
+      "pp.3–5：微带与对称带状线具有不同模型参数；对称带状线假设上下参考面等距。",
+      "pp.4–6：内嵌信号的回流/屏蔽与外层可测性、调试、去耦存在权衡；教材四层示例不是通用最优层序。"
+    ],
+    "limitations": [
+      "2009教程的FR4 example数值、W/H ratio、2inch/ns heuristic、50Ω例子与50MHz图注不作所有MCU板硬门槛。实际边沿、材料、叠层/铜/阻焊/几何、协议与模型均需目标确认。",
+      "没有用于USB差分完整建模或SI/PI/EMC/板厂阻抗生产认证；无目标板计算结果。",
+      "power plane能作参考的zeroACpotential是模型假设，不能据此允许跨分割、局部回流中断或忽略换参考回路。",
+      "文字提取存在字体/公式排版限制；未渲染，不将提取公式自动翻译成计算程序。没有提供通用return-via距或ESD回流布局值。",
+      "原文版权归ADI；未核实开放全文再分发许可，快照仅本地研究。"
+    ],
+    "evidence": [
+      {
+        "pdf_page": 1,
+        "locator": "Introduction transmission-line guideline",
+        "quote": "one-half the applied signal rise/fall time",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 2,
+        "locator": "Reference plane assumption",
+        "quote": "a large area, low impedance reference plane",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 2,
+        "locator": "Reference plane assumption",
+        "quote": "both of which are assumed to be at zero ac potential.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 2,
+        "locator": "Equation accuracy caveat",
+        "quote": "All of the existing equations are approximations",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 2,
+        "locator": "Equation accuracy caveat",
+        "quote": "subject to further analysis, testing and design verification.",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 4,
+        "locator": "Symmetric stripline discussion",
+        "quote": "located directly above and below the signal trace on the ground/power planes",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 5,
+        "locator": "Figure3 caption",
+        "quote": "Embedded Between Equally Spaced Ground and/or Power Planes",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      },
+      {
+        "pdf_page": 6,
+        "locator": "Some pros and cons of embedding traces",
+        "quote": "the decision of embedded vs. not-embedded for the PCB design becomes a tradeoff",
+        "claim": "该短引文支持上述对应章节的条件化规则；不得脱离来源情境用作板级通过结论。",
+        "quote_text_verified": true
+      }
+    ],
+    "license_or_terms": "官方公开应用笔记/教程；原权利人保留版权，未确认全文再分发许可。完整PDF/文本仅本地证据，发布时只给URL、hash、短摘录和原创总结。",
+    "evidence_pages_path": "research/rules/snapshots/rules-adi-mt094-2026-11-21-evidence-pages.json"
+  },
+  {
+    "id": "rules-adi-mt100",
+    "title": "ADI MT-100 Rev0: Breadboarding and Prototyping Techniques",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-100.pdf",
+    "local_path": "research/rules/snapshots/rules-adi-mt100-complete-20261121.pdf",
+    "text_path": "research/rules/snapshots/rules-adi-mt100-complete-20261121.txt",
+    "sha256": "b2081d6d31029cd79fb2f8415f9d7bd8730f723cc32ff81429fe546a78ef4983",
+    "retrieved_at": "2026-11-21T14:09:11.192372+00:00",
+    "authority": "Analog Devices 原厂教程",
+    "license_or_terms": "原厂文档版权归ADI；完整PDF仅本地保存，公开引用少量证据与原创总结。",
+    "claims": [
+      "多层高频原型的寄生/阻抗可能与双层飞线搭建不同；最终封装、参考平面与去耦布局应纳入验证。",
+      "评估板可供学习布局依赖，但AD8001实例的电容、50欧传输线和特定挖空不能外推为所有MCU的规则。"
+    ],
+    "limitations": [
+      "Rev0 2009历史原型教程；p6铣板最小线宽间距属于该工艺，不是当前板厂指标。",
+      "文字提取未验证图片几何或目标PCB性能；首次服务器仅返1MiB，按Content-Range补齐1086799字节后才解析15页，截断文件不计有效来源。"
+    ],
+    "evidence": [
+      {
+        "locator": "MT-100 Rev0, PDF p.10",
+        "short_quote": "always prototype with the final packages."
+      },
+      {
+        "locator": "MT-100 Rev0, PDF p.11",
+        "short_quote": "located as close to the power supply pins as possible"
+      },
+      {
+        "locator": "MT-100 Rev0, PDF p.12",
+        "short_quote": "Plated-through holes connect the top and bottom side"
+      },
+      {
+        "locator": "MT-100 Rev0, PDF p.14",
+        "short_quote": "layouts can be used as guides for the actual system board layout."
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status": "rejected",
+  "reason": "[object Object]",
+  "stage": "write-footprint",
+  "error_type": "Error",
+  "rollback": "source_verified",
+  "recovery_required": false,
+  "committed": false,
+  "plan_id": "e1e3fde1673642e89d1e5e2567b2b51c",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/e1e3fde1673642e89d1e5e2567b2b51c.json"
+}

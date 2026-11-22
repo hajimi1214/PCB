@@ -1,0 +1,8 @@
+{
+  "status": "recovery_required",
+  "project_slug": "rp2040-minimal",
+  "source_path": "local/board-challenges/sources/rp2040-minimal/rp2040-minimal.zip",
+  "error_type": "DrawingError",
+  "reason": "EDA reference import failed: 错误：非离线客户端环境无法调用本接口！",
+  "files_present": []
+}

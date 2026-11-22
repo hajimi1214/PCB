@@ -1,0 +1,9 @@
+{
+  "status": "started",
+  "project_slug": "feather-f405-eagle-board",
+  "source_path": "local/board-challenges/sources/feather-f405/Adafruit_Feather_STM32F405_Express.brd",
+  "source_sha256": "9357dc1dddde01fd5e93a1eebd5ae37742d1e55f0dd7190d0b39456d39b1df5b",
+  "file_type": "EAGLE",
+  "destination": "new_user_project",
+  "public_source": true
+}

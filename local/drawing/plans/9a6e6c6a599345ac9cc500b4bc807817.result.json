@@ -1,0 +1,13 @@
+{
+  "ok": false,
+  "status": "rejected",
+  "reason": "{\"name\":\"Error\",\"message\":\"Board outline readback count or identity differs\"}",
+  "stage": "readback",
+  "error_type": "Error",
+  "rollback": "source_verified",
+  "recovery_required": false,
+  "committed": false,
+  "plan_id": "9a6e6c6a599345ac9cc500b4bc807817",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/9a6e6c6a599345ac9cc500b4bc807817.json"
+}

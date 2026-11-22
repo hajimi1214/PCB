@@ -1,0 +1,9 @@
+{
+  "status": "started",
+  "project_slug": "hackrf-one-four-layer",
+  "source_path": "local/board-challenges/sources/hackrf-one.zip",
+  "source_sha256": "445862900d7dc76b76deaf0463a9a1028d5098c072a8208e68ae93035f6253b9",
+  "file_type": "KiCad",
+  "destination": "new_user_project",
+  "public_source": true
+}

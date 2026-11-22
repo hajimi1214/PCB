@@ -1,0 +1,20 @@
+{
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "workspace_kind": "imported_reference_project",
+  "status": "reference_project_imported",
+  "project_slug": "rp2040-minimal",
+  "session_id": "b4caa14c-c20c-4bc6-af9b-52056522bf55",
+  "project_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+  "source_path": "local/board-challenges/sources/rp2040-minimal/rp2040-minimal.zip",
+  "source_sha256": "8fdae5c1d3d8e58f43a45cd604ce9836b1ad4649f11eca4a9bea97eec6c2093a",
+  "file_type": "KiCad",
+  "source_board_name": "RPI-RP2040-MINIMAL_R3-S1",
+  "source_pcb_uuid": "52caa9452ee66dee",
+  "source_schematic_uuid": "240b9c508235f5e1",
+  "pcb_uuid": null,
+  "schematic_uuid": "240b9c508235f5e1",
+  "project_friendly_name": "PCB visual reference - rp2040-minimal",
+  "destination": "new_user_project",
+  "layout_ready_for_placement": false,
+  "source_files_are_public": true
+}

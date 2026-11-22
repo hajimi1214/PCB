@@ -1,0 +1,160 @@
+{
+  "run_date": "2026-11-22",
+  "timezone": "Asia/Shanghai",
+  "concurrency": 1,
+  "objective": "Compare three independently derived layout tasks with the RP2040 visual reference profile using Codex, the PCB MCP plugin, and JLCEDA Pro. Reuse visual characteristics and design intent, not component coordinates or routing geometry.",
+  "reference_profiles": "local/board-challenges/analysis/reference-effects.json",
+  "test_environment": {
+    "eda": "JLCEDA Pro 4.1.100",
+    "mode": "online account project",
+    "plugin_version": "0.4.0",
+    "one_active_eda_session": true
+  },
+  "cases": [
+    {
+      "id": "rp2040-minimal",
+      "license": "MIT",
+      "profile": {
+        "board_envelope_mm": [52.0, 51.0],
+        "copper_layers": 2,
+        "components": 34,
+        "top_components": 34,
+        "bottom_components": 0,
+        "routing_segments": 313,
+        "vias": 28
+      },
+      "derived_task": "Create a compact RP2040-class USB controller layout with an approximately 52 x 51 mm rounded envelope. Keep the MCU and its local decoupling in the central dense region, place user-facing connectors around the board perimeter, and group USB, QSPI flash, clock, power, and debug circuitry by function. Use a newly generated rounded rectangle with a documented radius. Rebuild placement from schematic connectivity and engineering constraints. Do not copy reference component coordinates, track paths, or via locations. The reference is two-layer, so do not infer a four-layer stackup from it.",
+      "eda_import": {
+        "status": "reference project imported",
+        "project_created": true,
+        "layout_targets": ["PCB2", "PCB3"],
+        "schematic_component_import": "failed",
+        "evidence": {
+          "netlist_sha256": "e225627a3d28c5817fc885921083b00f2eed88fed88589811ea8e1fc2b607670",
+          "netlist_bytes": 150981,
+          "import_changes_with_schematic_uuid": false,
+          "import_changes_without_uuid": false,
+          "target_component_count": 0,
+          "target_net_count": 0
+        }
+      },
+      "plugin_test": {
+        "outline_only": "passed on PCB3",
+        "generated_corner_radius_mil": 150,
+        "outline_primitive_count": 1,
+        "components": 0,
+        "tracks": 0,
+        "vias": 0,
+        "drc": {
+          "state": "failed",
+          "violation_count": 1,
+          "violation_type": "Netlist Error",
+          "reason": "The target has no imported schematic components or nets."
+        },
+        "saved_native_project": false,
+        "manufacturing_ready": false
+      },
+      "exploratory_artifact": {
+        "board": "PCB2",
+        "description": "A first outline test used the source polygon before the no-tracing task prompt was fully applied. It remains in the temporary online reference project as a superseded diagnostic artifact.",
+        "fresh_drc": {
+          "state": "failed",
+          "violation_count": 1,
+          "violation_type": "Netlist Error",
+          "reason": "The target has no imported schematic components or nets."
+        }
+      },
+      "acceptance": "A generated outline was committed and independently read back. Component placement, routing, schematic equivalence, DRC pass, manufacturing export, and full visual similarity remain unverified."
+    },
+    {
+      "id": "feather-f405",
+      "license": "CC BY-SA 3.0",
+      "profile": {
+        "board_envelope_mm": [50.8, 22.86],
+        "copper_layers": 2,
+        "components": 61,
+        "top_components": 50,
+        "bottom_components": 11,
+        "routing_segments": 815,
+        "vias": 83
+      },
+      "derived_task": "Create a slim 50.8 x 22.86 mm MCU module with a long-card silhouette, edge connector rows, a visually balanced top-side main cluster, and a smaller set of bottom-side support components. Preserve a deliberate connector perimeter and distinct power, USB, MCU, and storage regions. Choose placements from the actual schematic and package constraints. Do not copy the source footprint coordinates or routes.",
+      "eda_import": {
+        "status": "inconclusive",
+        "attempts": 2,
+        "last_reason": "EDA did not confirm the new reference project.",
+        "board_created_for_layout": false
+      },
+      "acceptance": "No layout was drawn in EDA. Import compatibility and visual similarity remain unverified."
+    },
+    {
+      "id": "hackrf-one",
+      "license": "CERN-OHL-P v2",
+      "profile": {
+        "board_envelope_mm": [120.0, 75.0],
+        "copper_layers": 4,
+        "components": 437,
+        "top_components": 437,
+        "routing_segments": 3817,
+        "vias": 498,
+        "internal_layer_segments": {
+          "In1.Cu": 29,
+          "In2.Cu": 15
+        }
+      },
+      "derived_task": "Create a four-layer 120 x 75 mm SDR layout with clearly separated RF/front-end, clock, digital-control, and power regions. Keep the connector and RF interfaces at the board edges, reserve continuous return reference planes, and route sensitive RF paths from actual device guidance. Treat the source stackup numbers as case-specific. Do not copy component positions, trace paths, or via locations.",
+      "eda_import": {
+        "status": "inconclusive",
+        "attempts": 2,
+        "last_reason": "EDA did not confirm the new reference project.",
+        "board_created_for_layout": false
+      },
+      "acceptance": "No layout was drawn in EDA. Four-layer import fidelity, placement, routing, DRC, and manufacturing similarity remain unverified."
+    }
+  ],
+  "plugin_findings": [
+    {
+      "id": "footprint-library-resolution",
+      "status": "fixed",
+      "finding": "The apply action queried footprint UUIDs without their project-library UUID. It now resolves exact library items before opening a command group and uses bounded, credential-redacted diagnostics."
+    },
+    {
+      "id": "native-footprint-create",
+      "status": "failed",
+      "finding": "JLCEDA Pro 4.1.100 rejects footprint-only create calls for both the RP2040 package and a simple capacitor package. Command-group rollback restored the source digest in each attempt."
+    },
+    {
+      "id": "schematic-import",
+      "status": "failed",
+      "finding": "The native netlist is readable, but importChanges returned false for both the explicit copied schematic UUID and the no-argument fallback. The target remained empty."
+    },
+    {
+      "id": "outline-enumeration",
+      "status": "fixed",
+      "finding": "The EDA did not return board-outline polylines from getAll with an empty-net filter. The action now reads all polylines and filters layer 11."
+    },
+    {
+      "id": "outline-normalization",
+      "status": "fixed",
+      "finding": "JLCEDA normalizes a closed polygon's traversal direction. Readback now compares the closed vertex ring independent of starting vertex and direction."
+    },
+    {
+      "id": "outline-replacement",
+      "status": "runtime-unavailable",
+      "finding": "The plugin implements a bounded replace_outline operation that requires the exact sole baseline primitive ID and preserves it. The installed 4.1.100 runtime does not expose pcb_PrimitivePolyline.modify, although the downloaded 0.4.30 type package documents it, so live replacement is unavailable."
+    },
+    {
+      "id": "manufacturing-acceptance",
+      "status": "not-passed",
+      "finding": "The fresh PCB2 DRC contains one Netlist Error. No board has verified schematic parity, completed routing, zero-violation DRC, manufacturing export, or functional validation."
+    }
+  ],
+  "summary": {
+    "reference_cases": 3,
+    "complete_pcb_boards": 0,
+    "generated_outline_prototypes": 1,
+    "superseded_outline_artifacts": 1,
+    "eda_imports_not_confirmed": 2,
+    "manufacturing_ready_boards": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "status": "completed",
+  "group_id": "apigroup-4ad95b73e2f2b7be-1795345698816-13",
+  "operation_count": 1,
+  "created_ids": [
+    "7c7463402a4386fa"
+  ],
+  "source_sha256": "b35d7ae206409f10a5d1df6347fbb88afc87f49ee6d7caf252e728d61dbf2612",
+  "saved_to_native_project": false,
+  "drc_required": true,
+  "visual_only_component_count": 0,
+  "visual_only_no_device_or_net_binding": false,
+  "limitation": "Footprint-only visual prototypes do not inherit schematic device or net binding. No collision/keepout proof, DRC, routing completeness, SI/PI, DFM or functional pass; do not fabricate until engineering verification.",
+  "plan_id": "c5947a8f56064a1f9773c14b8d61c790",
+  "copy_id": "ee125f5c80be4ab99a1c6de9091247c6",
+  "baseline_backup": "local/drawing/plans/c5947a8f56064a1f9773c14b8d61c790.json"
+}

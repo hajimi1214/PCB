@@ -1,0 +1,15 @@
+{
+  "status": "recovery_required",
+  "project_slug": "rp2040-minimal",
+  "source_path": "local/board-challenges/sources/rp2040-minimal/rp2040-minimal.zip",
+  "error_type": "DrawingError",
+  "reason": "EDA reference import failed: EDA did not confirm the new reference project",
+  "destination": "new_user_project",
+  "source_project_may_exist": false,
+  "files_present": [],
+  "retry_gate_lookup": {
+    "project_slug": "rp2040-minimal",
+    "exact_match_count": 0,
+    "absence_confirmed": true
+  }
+}

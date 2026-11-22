@@ -1,0 +1,5 @@
+interface:
+  display_name: "PCB"
+  short_description: "研究与审查嘉立创 EDA 专业版 PCB，建立四层 MCU 板的设计约束和可追溯验证流程"
+  default_prompt: "使用 $pcb，依据项目资料库检查这份原理图到四层 PCB 的设计条件，并给出有来源的下一步。"
+

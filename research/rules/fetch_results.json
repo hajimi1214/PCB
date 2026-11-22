@@ -1,0 +1,140 @@
+[
+  {
+    "id": "jlc-capabilities",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "error": "The read operation timed out"
+  },
+  {
+    "id": "jlc-impedance",
+    "url": "https://jlcpcb.com/impedance",
+    "final_url": "https://jlcpcb.com/impedance",
+    "bytes": 336767,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "342cf8e98d411aee0e41f3e7abdd1a59561ab8aa3d3059683e5a9fd86b0efdda",
+    "local_path": "research/rules/snapshots/jlc-impedance.html",
+    "retrieved_at": "2026-11-21T08:07:31.698553+00:00"
+  },
+  {
+    "id": "jlc-stackup",
+    "url": "https://jlcpcb.com/blog/pcb-layer-stackup-design-guidelines",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "jlc-stackup-faq",
+    "url": "https://jlcpcb.com/help/article/pcb-stackup",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "ti-highspeed",
+    "url": "https://www.ti.com/lit/an/scaa082a/scaa082a.pdf",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "id": "ti-usb-layout",
+    "url": "https://www.ti.com/lit/an/slla414/slla414.pdf",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "id": "adi-ground",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/staying-well-grounded.html",
+    "final_url": "https://www.analog.com/en/resources/analog-dialogue/articles/staying-well-grounded.html",
+    "bytes": 80157,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "87049bfcf9a52616b51f4aebbe3be731ad9e30a0d65a72f993b28da2063989e6",
+    "local_path": "research/rules/snapshots/adi-ground.html",
+    "retrieved_at": "2026-11-21T08:07:28.904944+00:00"
+  },
+  {
+    "id": "adi-decoupling",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/decoupling-techniques.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "adi-layout",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/pcb-layout-techniques.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "jlc-assembly",
+    "url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+    "bytes": 112578,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "96a3ca33d0460dbc2564a87c5da02c8e6b9593b8d2ecae1b44f92a3cf8e1d9ca",
+    "local_path": "research/rules/snapshots/jlc-assembly.html",
+    "retrieved_at": "2026-11-21T08:07:32.089075+00:00"
+  },
+  {
+    "id": "jlc-capabilities",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "final_url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "bytes": 140266,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "c202f6dec766bb6f889e22f42d0cecda0a4920a5157405f6a8f3c0c0d70d6a0c",
+    "local_path": "research/rules/snapshots/jlc-capabilities.html",
+    "retrieved_at": "2026-11-21T08:09:03.048961+00:00"
+  },
+  {
+    "id": "adi-mt101",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-101.pdf",
+    "final_url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-101.pdf",
+    "bytes": 976961,
+    "content_type": "application/pdf",
+    "sha256": "d7d7ab776638cd79a2934521adc37df1a9229e2538ee45255df32635d6a9d507",
+    "local_path": "research/rules/snapshots/adi-mt101.pdf",
+    "retrieved_at": "2026-11-21T08:08:59.846101+00:00"
+  },
+  {
+    "id": "adi-ground-bounce",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/reducing-ground-bounce-in-dc-to-dc-converters.html",
+    "final_url": "https://www.analog.com/en/resources/analog-dialogue/articles/reducing-ground-bounce-in-dc-to-dc-converters.html",
+    "bytes": 66186,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "f341ebed1f16bdb2cc0efebc2a021e365f481688d6e5449ce05cceede2d4a310",
+    "local_path": "research/rules/snapshots/adi-ground-bounce.html",
+    "retrieved_at": "2026-11-21T08:09:01.595124+00:00"
+  },
+  {
+    "id": "ti-highspeed",
+    "url": "https://www.ti.com/lit/pdf/scaa082",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "id": "ti-usb-layout",
+    "url": "https://www.ti.com/lit/pdf/slla414",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "id": "microchip-avr040",
+    "url": "https://ww1.microchip.com/downloads/en/AppNotes/Atmel-1619-EMC-Design-Considerations_ApplicationNote_AVR040.pdf",
+    "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+  },
+  {
+    "id": "adi-switcher",
+    "url": "https://www.analog.com/en/resources/technical-articles/pcb-layout-considerations-for-non-isolated-switching-power-supplies.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "ti-cn-highspeed",
+    "url": "https://www.ti.com.cn/cn/lit/an/scaa082a/scaa082a.pdf",
+    "final_url": "https://www.ti.com.cn/cn/lit/an/scaa082a/scaa082a.pdf",
+    "bytes": 780522,
+    "sha256": "24681796ac36e50f9c6ef5e0b98945b6236ddb9fa620da97597ba62a85990206",
+    "local_path": "research/rules/snapshots/ti-cn-highspeed.pdf",
+    "retrieved_at": "2026-11-21T08:09:46.474022+00:00"
+  },
+  {
+    "id": "ti-cn-usb",
+    "url": "https://www.ti.com.cn/cn/lit/an/slla414/slla414.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "adi-mt031",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-031.pdf",
+    "final_url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-031.pdf",
+    "bytes": 148151,
+    "sha256": "9dd21b95f00a6d3b31648774e0fef4f456644dcf4a5f4bceccf821d4730f4128",
+    "local_path": "research/rules/snapshots/adi-mt031.pdf",
+    "retrieved_at": "2026-11-21T08:09:46.110930+00:00"
+  }
+]

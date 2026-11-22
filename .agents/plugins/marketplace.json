@@ -1,0 +1,12 @@
+{
+  "name": "local-pcb",
+  "plugins": [
+    {
+      "name": "pcb",
+      "source": {
+        "source": "local",
+        "path": "./"
+      }
+    }
+  ]
+}

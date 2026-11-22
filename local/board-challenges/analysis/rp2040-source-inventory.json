@@ -1,0 +1,728 @@
+{
+  "source_pcb_uuid": "52caa9452ee66dee",
+  "project_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+  "component_count": 34,
+  "components": [
+    {
+      "reference": "C4",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc2012x125",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "f2382a3a65e883d1",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc2012x125"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "J1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:amphenol_10103594-0001lf",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "840d5114b71a38b1",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:amphenol_10103594-0001lf"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "6",
+        "7",
+        "7",
+        "8",
+        "9",
+        "9",
+        "10",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "reference": "J2",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:samtec_tsw-102-07-g-s",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "0053beec1f9b605e",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:samtec_tsw-102-07-g-s"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "J3",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:samtec_tsw-118-07-l-d",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "2eb7b89d891135ec",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:samtec_tsw-118-07-l-d"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ]
+    },
+    {
+      "reference": "C10",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "54d616aeae33209b",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C8",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "4ee42137ec565186",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C13",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "97ec37459fa64236",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C5",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "02a93bd6fb50955c",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "R2",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_resc1005x35",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "92866978dfd9f852",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_resc1005x35"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "J4",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:samtec_tsw-118-07-l-d",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "6f3d185220f7d357",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:samtec_tsw-118-07-l-d"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ]
+    },
+    {
+      "reference": "U1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:onsemi_ncp1117st33t3g",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "c9dfdb5aba9e1038",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:onsemi_ncp1117st33t3g"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "reference": "U2",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_soic127p790x195-8",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "70f4f5fcb23ea21a",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_soic127p790x195-8"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "reference": "R1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_resc1005x35",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "41f10aa4d5b7be1d",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_resc1005x35"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C9",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "fbf593d40eae07ec",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C12",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "093388a99cbe07a4",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C14",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "3c1de87666fa1f98",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "R3",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_resc1005x35",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "b6a370204b09708a",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_resc1005x35"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C7",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "fbfc54e418ec90c6",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc2012x125",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "bba72ce0ed319fc5",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc2012x125"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C11",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "32cfff82c648e20e",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C16",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "c4db38d9333cd4a8",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "U3",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:rpi_rp2040_vias",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "60f63300c7161e95",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:rpi_rp2040_vias"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57",
+        "57"
+      ]
+    },
+    {
+      "reference": "MH2",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "530feb5bd26552e7",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+      },
+      "pad_numbers": []
+    },
+    {
+      "reference": "R4",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_resc1005x35",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "aba8afa3fc1c660b",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_resc1005x35"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "MH3",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "ef635161a1783f83",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+      },
+      "pad_numbers": []
+    },
+    {
+      "reference": "C6",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "a328ed0a74d50ff4",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C15",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "4e6ea46832b30652",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "MH1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "28b242f2aa997a49",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+      },
+      "pad_numbers": []
+    },
+    {
+      "reference": "MH4",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "a8a722055b3c5af7",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm"
+      },
+      "pad_numbers": []
+    },
+    {
+      "reference": "C17",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc2012x125",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "99bab940c4f22b22",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc2012x125"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C2",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "c5c3dbc7f1f36107",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "C3",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_capc1005x50",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "3df54365c32f8022",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_capc1005x50"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "reference": "X1",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_xtalcc320x250x80-4",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "7ccc08febcc03fef",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_xtalcc320x250x80-4"
+      },
+      "pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "reference": "R5",
+      "value": null,
+      "footprint_name": "RPI_COMPILED:generic_resc1005x35",
+      "source_library_uuid": "24dd36c7036f4e02bddc95024a9dd349",
+      "source_footprint_uuid": "029edec69c75e6d9",
+      "resolved": {
+        "lookup_status": "observed",
+        "footprint_found": true,
+        "resolved_library_uuid": "a18e1a0b37c44619bd26a7728eb1e879",
+        "resolved_name": "RPI_COMPILED:generic_resc1005x35"
+      },
+      "pad_numbers": [
+        "1",
+        "2"
+      ]
+    }
+  ]
+}
